@@ -1,2 +1,0 @@
-# tales
-Personal Jekyll Blog
