@@ -382,7 +382,7 @@ body {
 a {
   color: #888; }
   a:hover, a:focus {
-    color: grey; }
+    color: black; }
 
 h1 {
   margin: .67em 0;

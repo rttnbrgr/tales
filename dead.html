@@ -1,0 +1,48 @@
+---
+title: Hello
+---
+{% include head.html %}
+
+<body>
+	
+	<div class="vertical-line"></div>
+	
+	<div id="hero" class="">
+		
+		<div class="container">
+			
+			<header>
+				
+				<a href="#" class="tayo">{% include svg/tayo.html %}</a>
+				{% include svg/avatar.html %}
+				{% include svg/avi.html %}
+				
+			</header>		
+
+		</div>
+		
+		<nav>
+			<a href="https://www.behance.net/nroth10">Portfolio</a>
+			<a href="#resume" class="resume resume-toggle">Resume</a>
+			<a href="mailto:nroth10@gmail.com">Contact</a>
+		</nav>
+
+	</div>
+
+
+	{% include resume.html %}	
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- <script src="/assets/js/jquery-2.1.1.min.js"></script> -->
+<script>
+	$('.resume-toggle').click(function(){
+		console.log('go');
+		$('#resume').toggleClass('hire-me');
+	})
+</script>
+
+</body>
+
+
+</html>
