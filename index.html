@@ -1,37 +1,48 @@
 ---
-layout: default
-title: Home
+title: Hello
 ---
+{% include head.html %}
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<body>
+	
+	<div class="vertical-line"></div>
+	
+	<div id="hero" class="">
+		
+		<div class="container">
+			
+			<header>
+				
+				<a href="#" class="tayo">{% include svg/tayo.html %}</a>
+				{% include svg/avatar.html %}
+				{% include svg/avi.html %}
+				
+			</header>		
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+		</div>
+		
+		<nav>
+			<a href="https://www.behance.net/nroth10">Portfolio</a>
+			<a href="#resume" class="resume resume-toggle">Resume</a>
+			<a href="mailto:nroth10@gmail.com">Contact</a>
+		</nav>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+	</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+
+	{% include resume.html %}	
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- <script src="/assets/js/jquery-2.1.1.min.js"></script> -->
+<script>
+	$('.resume-toggle').click(function(){
+		console.log('go');
+		$('#resume').toggleClass('hire-me');
+	})
+</script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,21 @@
+#resume {
+	background-color: pink;
+	@include size(100%);
+	@include position(fixed, 0);
+	// position: fixed;
+	z-index: 9;
+	// z-index: -1;
+	padding-top: 8em;
+	text-align: center;
+
+	background-color: $dark-light;
+	overflow: hidden;
+	overflow-y: scroll;
+
+	@include transition(transform 500ms ease);
+	@include transform(translate3d(0, -100%, 0));
+
+	&.hire-me {
+		@include transform(translate3d(0%, 0, 0));
+	}
+}

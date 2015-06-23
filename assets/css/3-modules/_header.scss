@@ -1,0 +1,24 @@
+// Header
+header {
+	text-align: center;
+	padding: 2em 0;
+	// margin-bottom: 2em;
+	
+	a.tayo {
+		display: block;
+		width: 100%;
+		max-width: 300px;
+		padding: 0 2em;
+		margin: 1em auto 2em;
+		
+		overflow: hidden;
+		position: relative;
+		z-index: 10;
+
+		svg {
+			display: block;
+			@include size(100%);
+		}
+	}
+
+}

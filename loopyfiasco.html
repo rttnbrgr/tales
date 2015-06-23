@@ -1,0 +1,56 @@
+---
+title: goodbye
+---
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+    
+    <div class="letter-wrap">
+        
+        <img src="/assets/img/image0.jpg" alt="" class="polo front">
+        
+        <div class="letter">
+            
+            <!-- <h1>Goodbye</h1> -->
+            {% include drtl.html %}
+
+        </div>
+        
+        <img src="/assets/img/image1.jpg" alt="" class="polo back">
+
+    </div>
+
+    <script type="text/javascript" src="/bower_components/soundmanager2/script/soundmanager2.js"></script>
+    <script>
+    	soundManager.setup({
+    	  url: '/bower_components/soundmanager2/swf/',
+    	  flashVersion: 9, // optional: shiny features (default = 8)
+    	  // optional: ignore Flash where possible, use 100% HTML5 mode
+    	  // preferFlash: false,
+    	  onready: function() {
+    	    // Ready to use; soundManager.createSound() etc. can now be called.
+    	    console.log('on ready');
+    		
+    		var eliza = soundManager.createSound({
+    			url: '../assets/audio/eliza.mp3'
+    		});
+    		
+    		
+            eliza.play();
+    	  }
+    	});
+
+
+    </script>
+
+    
+
+  </body>
+</html>
+
+
+

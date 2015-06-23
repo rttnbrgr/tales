@@ -1,0 +1,21 @@
+nav {
+	
+	@extend %container;
+	text-align: center;
+	background-color: #fefefe;
+	overflow: hidden;
+
+	a {
+		display: block;
+		padding: 0.5em 0;		
+
+		@media (min-width: 48em) {
+			display: inline-block;
+		}
+	}
+
+
+	
+
+	// }
+}
