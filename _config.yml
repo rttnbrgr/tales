@@ -9,8 +9,8 @@ relative_permalinks: true
 # Setup
 title:            †∆¥Ø
 tagline:          'Hola'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+description:      'A website by <a href="https://twitter.com/tayoxlife" target="_blank">@tayoxlife</a>.'
+url:              http://tayo.co
 baseurl:          /
 
 author:
@@ -20,12 +20,17 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          0.0.1
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/tayox/tales
 
 
 sass:
   sass_dir: assets/css
   # style: :nested
+
+
+# Development
+
+port:							4020

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>†∆¥Ø</title>
- <link href="http://hyde.getpoole.com/atom.xml" rel="self"/>
- <link href="http://hyde.getpoole.com/"/>
- <updated>2015-06-23T20:11:15-04:00</updated>
- <id>http://hyde.getpoole.com</id>
+ <link href="http://tayo.co/atom.xml" rel="self"/>
+ <link href="http://tayo.co/"/>
+ <updated>2015-06-28T13:24:03-04:00</updated>
+ <id>http://tayo.co</id>
  <author>
    <name>Nathan Rothenberger</name>
    <email></email>
@@ -13,10 +13,19 @@
 
  
  <entry>
+   <title>First Day Of The Rest Of Your Life</title>
+   <link href="http://tayo.co/2015/06/28/first-day-of-the-rest-of-your-life/"/>
+   <updated>2015-06-28T00:00:00-04:00</updated>
+   <id>http://tayo.co/2015/06/28/first-day-of-the-rest-of-your-life</id>
+   <content type="html">&lt;p&gt;Meh Tumblr wayfarers Brooklyn yr put a bird on it. Selfies deep v skateboard put a bird on it, letterpress roof party fanny pack hoodie Shoreditch Brooklyn. Vinyl iPhone cardigan, kogi small batch asymmetrical kitsch irony drinking vinegar jean shorts cray pop-up. Church-key lo-fi gastropub, taxidermy quinoa sartorial semiotics hashtag messenger bag small batch. Letterpress fanny pack synth flannel. Bushwick hoodie paleo tofu church-key locavore skateboard salvia. Tumblr dreamcatcher lomo, tofu cred artisan irony cardigan raw denim Pinterest try-hard fashion axe 8-bit.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Todo</title>
-   <link href="http://hyde.getpoole.com/2015/02/01/ToDo/"/>
+   <link href="http://tayo.co/2015/02/01/ToDo/"/>
    <updated>2015-02-01T00:00:00-05:00</updated>
-   <id>http://hyde.getpoole.com/2015/02/01/ToDo</id>
+   <id>http://tayo.co/2015/02/01/ToDo</id>
    <content type="html">&lt;h1&gt;todo list for today&lt;/h1&gt;
 
 &lt;h3&gt;Look for a shirt&lt;/h3&gt;
@@ -44,9 +53,9 @@
  
  <entry>
    <title>DOPE</title>
-   <link href="http://hyde.getpoole.com/2015/01/16/Dope-Volume-1/"/>
+   <link href="http://tayo.co/2015/01/16/Dope-Volume-1/"/>
    <updated>2015-01-16T00:00:00-05:00</updated>
-   <id>http://hyde.getpoole.com/2015/01/16/Dope-Volume-1</id>
+   <id>http://tayo.co/2015/01/16/Dope-Volume-1</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/img/dope1-web.jpg&quot; alt=&quot;DOPE 1&quot; title=&quot;DOPE Vol. 1&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;Marfa cred. Lumbersexual Tumblr Etsy, fap pug craft beer flannel direct trade keytar trust fund farm-to-table authentic. Cliche Thundercats YOLO bicycle rights mlkshk. Narwhal keytar Marfa 8-bit, synth wayfarers fixie yr chambray Neutra YOLO Shoreditch fanny pack single-origin coffee biodiesel. Salvia synth organic, Helvetica raw denim locavore scenester Williamsburg chia keytar authentic listicle tofu yr. Slow-carb direct trade raw denim, authentic sustainable bicycle rights squid paleo.&lt;/p&gt;
@@ -92,9 +101,9 @@ Kickstarter Austin chillwave, cred XOXO keffiyeh before they sold out four dolla
  
  <entry>
    <title>Introducing Hyde</title>
-   <link href="http://hyde.getpoole.com/2013/12/28/introducing-hyde/"/>
+   <link href="http://tayo.co/2013/12/28/introducing-hyde/"/>
    <updated>2013-12-28T00:00:00-05:00</updated>
-   <id>http://hyde.getpoole.com/2013/12/28/introducing-hyde</id>
+   <id>http://tayo.co/2013/12/28/introducing-hyde</id>
    <content type="html">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3&gt;Built on Poole&lt;/h3&gt;
@@ -136,9 +145,9 @@ Kickstarter Austin chillwave, cred XOXO keffiyeh before they sold out four dolla
  
  <entry>
    <title>Example content</title>
-   <link href="http://hyde.getpoole.com/2012/02/07/example-content/"/>
+   <link href="http://tayo.co/2012/02/07/example-content/"/>
    <updated>2012-02-07T00:00:00-05:00</updated>
-   <id>http://hyde.getpoole.com/2012/02/07/example-content</id>
+   <id>http://tayo.co/2012/02/07/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
@@ -282,9 +291,9 @@ Kickstarter Austin chillwave, cred XOXO keffiyeh before they sold out four dolla
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="http://hyde.getpoole.com/2012/02/06/whats-jekyll/"/>
+   <link href="http://tayo.co/2012/02/06/whats-jekyll/"/>
    <updated>2012-02-06T00:00:00-05:00</updated>
-   <id>http://hyde.getpoole.com/2012/02/06/whats-jekyll</id>
+   <id>http://tayo.co/2012/02/06/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
