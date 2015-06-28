@@ -7,11 +7,12 @@ nav {
 
 	a {
 		display: block;
-		padding: 0.5em 0;		
+		padding: 1em 0.5em;
 
-		@media (min-width: 48em) {
+		@include bp(baby) {
 			display: inline-block;
 		}
+		
 	}
 
 

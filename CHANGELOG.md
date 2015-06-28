@@ -1,3 +1,7 @@
+15-06-28
+- Changed the favicon
+- Removed some 'hyde' stuff
+
 15-06-23
 - Started dev again
 

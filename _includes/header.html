@@ -1,0 +1,18 @@
+<!-- <div class="size-testr"></div> -->
+<section class="fold">
+	
+	<header>
+		<a href="{{ site.baseurl }}">
+			{% include svg/avi.html %}
+		</a>
+	</header>
+
+	<nav class="container">
+	  {% for item in site.data.settings.nav %}
+	    <a href="{{ item.url }}">{{ item.name }}</a>
+	  {% endfor %}
+	</nav>
+
+	{% include social.html %}
+	<a href="#hero" class="scroll-more"><i class="fa fa-angle-down"></i></a>
+</section>

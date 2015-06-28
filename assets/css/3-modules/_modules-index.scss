@@ -5,8 +5,19 @@
 // @import "resume";
 @import "avi";
 
+// HERO
+.scroll-more {
+	display: block;
+	text-align: center;
+}
 
+// BLOG
+ol.posts {
+	list-style: none;
+	padding-left: 0;
+}
 
+// PORTFOLIO
 #portfolio {	
 	@extend %container;
 	overflow: hidden;
@@ -33,10 +44,7 @@
 }
 
 
-/* check 3 */
-
-
-
+// SOCIAL
 .social {
 	text-align: center;
 	padding: 1em 0;
@@ -44,5 +52,6 @@
 	a {
 		display: inline-block;
 		margin: 0 0.5em;
+		text-decoration: none;
 	}
 }

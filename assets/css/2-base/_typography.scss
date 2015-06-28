@@ -1,19 +1,38 @@
-body {
-	// margin: 1.2em 0;
+// Typography Vars
+$font-stack: 'courier', monospace;
+$default-font-size: 15px;
+$default-line-height: 1.6;
+
+
+html {
 	font-family: $font-stack;
-	font-size: 1em;
-	line-height: 1.6;
+  font-size: 15px;  
+}
+
+body {
+	font-size: $default-font-size;
+	font-weight: 400;
+	line-height: $default-line-height;
 	color: $body-color;
 }
 
 a {
 	color: $link-color;
+	text-decoration: underline;
 	
 	&:hover, &:focus {
-		color: black; // ?
+		color: black;
 	}	
 }
 
+// stip ul styles
+ol, ul { 
+	padding-left: 1em;
+	list-style-type: cirlce;
+	@include bp(mama) {
+		padding-left: 0;
+	}
+}
 
 h1 {
 	margin: .67em 0;
@@ -22,13 +41,26 @@ h1 {
 	font-weight: bold;
 }
 
-h2 {
-
-}
-
 h2, h3 {
 	font-size: 1em;
 	font-weight: normal;
+}
+
+h2 {
 	text-transform: uppercase;
-  letter-spacing: .1em;	
+  letter-spacing: 0.15em;		
+  a {
+  	text-decoration: none;
+  }
+}
+
+h3 {
+	color: $test1;
+	font-size: .8em;
+}
+
+span {
+	&.post-date {
+		font-size: .8em;
+	}
 }

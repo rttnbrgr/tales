@@ -1,0 +1,8 @@
+<div class="social">
+	
+	{% for link in site.data.settings.social %}
+		<a href="{{ link.link }}" class="fa fa-{{ link.icon }}"></a>
+	{% endfor %}
+
+</div>
+

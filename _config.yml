@@ -17,8 +17,6 @@ author:
   name:           'Nathan Rothenberger'
   url:            https://twitter.com/tayoxlife
 
-paginate:         5
-
 # Custom vars
 version:          0.0.1
 

@@ -4,13 +4,32 @@
  <title>†∆¥Ø</title>
  <link href="http://tayo.co/atom.xml" rel="self"/>
  <link href="http://tayo.co/"/>
- <updated>2015-06-28T13:24:03-04:00</updated>
+ <updated>2015-06-28T17:34:48-04:00</updated>
  <id>http://tayo.co</id>
  <author>
    <name>Nathan Rothenberger</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Helpful Links</title>
+   <link href="http://tayo.co/2015/06/28/helpful-links/"/>
+   <updated>2015-06-28T00:00:00-04:00</updated>
+   <id>http://tayo.co/2015/06/28/helpful-links</id>
+   <content type="html">&lt;p&gt;Some helpful links while developing this site.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://stefhatcher.com/projects/device-dimensions/&quot;&gt;Device Dimensions&lt;/a&gt;&lt;br&gt;
+Overlays of device screen sizes.  &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://screensiz.es/tablet&quot;&gt;Screensiz.es&lt;/a&gt;&lt;br&gt;
+Where they got their info.  &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&quot;&gt;Jekyll Date Formatting&lt;/a&gt;&lt;br&gt;
+Notes on the different options for Jekyll date formatting.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/&quot;&gt;Jekyll Docs&lt;/a&gt; Self explanatory.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>First Day Of The Rest Of Your Life</title>
@@ -22,13 +41,11 @@
  </entry>
  
  <entry>
-   <title>Todo</title>
+   <title>Todo List For Today</title>
    <link href="http://tayo.co/2015/02/01/ToDo/"/>
    <updated>2015-02-01T00:00:00-05:00</updated>
    <id>http://tayo.co/2015/02/01/ToDo</id>
-   <content type="html">&lt;h1&gt;todo list for today&lt;/h1&gt;
-
-&lt;h3&gt;Look for a shirt&lt;/h3&gt;
+   <content type="html">&lt;h3&gt;Look for a shirt&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The Woodlands&lt;/li&gt;

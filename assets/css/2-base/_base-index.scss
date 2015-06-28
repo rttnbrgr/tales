@@ -1,60 +1,14 @@
 
 // Variables
 @import "variables";
-// BASE
-// @import "base";
-// @import "grid";
+// Base
+@import "base";
+// Mixins
+@import "mixins";
 
-/* apply a natural box layout model to all elements, but allowing components to change */
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-// do i need this?
-html, body {
-	height: 100%;
-}
-
-// stip ul styles
-ul { padding-left: 0; }
-// full width images
-img { max-width: 100%; }
-
-// HELPERS
-.hide { display: none!important }
-
-
-
+// Grid
+@import "grid";
 // Typogrpahy
 @import "typography";
 
 
-%container {
-	max-width: 39.5rem;
-	display: block;
-	padding: 0 1rem;
-	margin: 0 auto;
-}
-
-.container {
-	@extend %container;
-}
-
-#hero {
-	// @include size(100%);
-	@extend %container;
-	padding: 0;	
-	margin-top: 1em;
-	margin-bottom: 1em;
-
-	position: relative;
-	overflow: hidden;
-
-	text-align: center;
-	p {
-		padding: 0 2em;
-	}
-}
