@@ -20,25 +20,26 @@ a {
 	color: $link-color;
 	text-decoration: underline;
 	
-	&:hover, &:focus {
-		color: black;
-	}	
+	&:hover, &:focus { color: black; }	
 }
 
 // stip ul styles
 ol, ul { 
 	padding-left: 1em;
 	list-style-type: cirlce;
+	
 	@include bp(mama) {
 		padding-left: 0;
 	}
 }
+
 
 h1 {
 	margin: .67em 0;
 	font-size: 1.5em;
 	text-align: center;
 	font-weight: bold;
+	color: $test1;
 }
 
 h2, h3 {
@@ -57,6 +58,7 @@ h2 {
 h3 {
 	color: $test1;
 	font-size: .8em;
+
 }
 
 span {

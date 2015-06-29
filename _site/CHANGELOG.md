@@ -1,6 +1,8 @@
 15-06-28
 - Changed the favicon
 - Removed some 'hyde' stuff
+- Worked on typogrpahy amongst other SCSS
+- Created _data/settings.yml 
 
 15-06-23
 - Started dev again

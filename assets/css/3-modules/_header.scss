@@ -1,26 +1,68 @@
-// Header
+////////////////////////////////////////
+// Header & Navbar
+////////////////////////////////////////
+
+
+// Header & AVI
 header {
 	text-align: center;
 	padding: 2em 0;
-	
-	a.tayo {
-		display: block;
-		width: 100%;
-		max-width: 300px;
-		padding: 0 2em;
-		margin: 1em auto 2em;
-		
-		overflow: hidden;
-		position: relative;
-		z-index: 10;
 
-		svg {
-			display: block;
-			@include size(100%);
-		}
-	}
+	// on scroll shrink this guy and move him right?	
 
 	// debug
 	@extend %size-testr;
 
+
+	&.navbar-on {
+		padding-top: 1em;
+		a {
+			display: block;
+		  position: absolute;
+		  right: 0;
+		  height: 4em;
+		  overflow: hidden;
+		  text-align: right;
+		  left: 0;
+		  padding: 0 1em 0;
+		  	svg {
+		  		@include size(2em 100%);
+		  		height: 100%;
+		  		width: 2em;
+		  	}
+		}
+	}
+
+}
+
+// Avatar
+svg.avi {
+	display: block;
+	margin: 0 auto;
+}
+
+// Navigation
+nav {
+	
+	@extend %container;
+	text-align: center;
+	background-color: #fefefe;
+	overflow: hidden;
+
+	a {
+		display: block;
+		padding: 1em 0.5em;
+
+		@include bp(baby) {
+			display: inline-block;
+		}
+		
+	}
+	// }
+}
+
+// Scroll more
+.scroll-more {
+	display: block;
+	text-align: center;
 }

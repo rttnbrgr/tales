@@ -1,57 +1,10 @@
 // Header
 @import "header";
-// Navigation
-@import "nav";
-// @import "resume";
-@import "avi";
-
 // HERO
-.scroll-more {
-	display: block;
-	text-align: center;
-}
-
+@import "hero";
 // BLOG
-ol.posts {
-	list-style: none;
-	padding-left: 0;
-}
-
+@import "blog";
 // PORTFOLIO
-#portfolio {	
-	@extend %container;
-	overflow: hidden;
-	display: block;
-}
-
-.project {
-	width: 33.333%;
-	float: left;
-	padding: 0 0.5em 0.5em;
-	
-	&:nth-child(3n+2) {
-		// padding: 1em 0;
-	}
-	
-	// clear the third
-	&:nth-child(3n+1) {
-		clear: both;
-	}
-
-	img {
-		width: 200px;
-	}
-}
-
-
+@import "portfolio";
 // SOCIAL
-.social {
-	text-align: center;
-	padding: 1em 0;
-
-	a {
-		display: inline-block;
-		margin: 0 0.5em;
-		text-decoration: none;
-	}
-}
+@import "social";
