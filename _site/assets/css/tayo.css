@@ -394,23 +394,21 @@ img {
   left: 0; }
 
 .container, nav, #hero, #portfolio {
-  width: 100%;
   display: block;
   padding: 0 1em;
   margin: 0 auto;
   -webkit-transition: all 0.25s linear;
   -moz-transition: all 0.25s linear;
   transition: all 0.25s linear; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 48em) {
     .container, nav, #hero, #portfolio {
-      width: 90%;
-      max-width: 34em; } }
+      max-width: 50em; } }
   @media screen and (min-width: 64em) {
     .container, nav, #hero, #portfolio {
-      max-width: 40em; } }
+      max-width: 64em; } }
   @media screen and (min-width: 75em) {
     .container, nav, #hero, #portfolio {
-      max-width: 64em; } }
+      max-width: 72em; } }
 
 html {
   font-family: "courier", monospace;
@@ -474,6 +472,7 @@ header {
       left: 0;
       padding: 0 1em 0; }
       header.navbar-on a svg {
+        display: block;
         height: 100%;
         width: 2em;
         height: 100%;

@@ -1,26 +1,18 @@
 %container {
-	// max-width: 39.5rem;
-
-	width: 100%;
 	display: block;
 	padding: 0 1em;
 	margin: 0 auto;
 	@include transition(all .25s linear);
 
-	@include bp(baby) {
-		width: 90%;
-		max-width: 34em; // 510 @ 480-768
-	}
 	@include bp(mama) {
-		// max-width: ; // @ 768-1-24
+		max-width: 50em; 	// 750 @ 768-1024
 	}
 	@include bp(papa) {
-		max-width: 40em; // @ 1024-1200
+		max-width: 64em; 	// 960 @ 1024-1200
 	}
 	@include bp(grand) {
-		max-width: 64em; // 960 @ 1200+
+		max-width: 72em; 	// 1080 @ 1200+
 	}
-
 }
 
 .container {

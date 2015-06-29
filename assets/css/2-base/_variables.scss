@@ -2,11 +2,25 @@
 $dark: #111;
 $dark-light: lighten($dark, 50%);
 
-
 // new
 $black: #000;
 $grey: #888;
 
+
+// flat test colors
+$test1: 		#1abc9c;
+$test2:			#16a085;
+$test3:			#2ecc71;
+$test4:			#27ae60;
+
+
+// Typographic
 $font-stack: 'courier', monospace;
 $body-color: $black;
 $link-color: $grey;
+
+// Sizes
+$baby: 		30em; // 480, phone cutoff
+$mama: 		48em; // 768, tablet
+$papa: 		64em; // 1024,
+$grand: 	75em; // 1200,

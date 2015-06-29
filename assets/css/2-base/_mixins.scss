@@ -2,10 +2,6 @@
 // SIZES
 // sized in ems, which are multiples of 16
 // move these to vars at some point
-$baby: 		30em; // 480, phone cutoff
-$mama: 		48em; // 768, tablet
-$papa: 		64em; // 1024,
-$grand: 	75em; // 1200,
 
 // THE Break-Point Mixin
 @mixin bp($point) {
@@ -30,13 +26,7 @@ $grand: 	75em; // 1200,
 
 }
 
-// flat test colors
-// move to vars
-$test1: 		#1abc9c;
-$test2:			#16a085;
-$test3:			#2ecc71;
-$test4:			#27ae60;
-
+// Colored Size breaks
 %size-testr {
 	background: transparent;
 	@include bp(baby)  { background-color: $test1; }
