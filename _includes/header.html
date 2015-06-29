@@ -1,6 +1,14 @@
+<a href="#" class="nav-toggle">
+	<span>toggle</span>
+</a>
+
 <!-- <div class="size-testr"></div> -->
 <section class="fold">
 	
+
+		
+
+
 	<header>
 		<a href="{{ site.baseurl }}" id="home">
 			{% include svg/avi.html %}
@@ -8,12 +16,14 @@
 	</header>
 
 	<nav class="container">
+	  
 	  {% for item in site.data.settings.nav %}
 	    <a href="{{ item.url }}">{{ item.name }}</a>
 	  {% endfor %}
+
+		{% include social.html %}
 	</nav>
 
-	{% include social.html %}
 	<!-- scroll more -->
 	<!-- <a href="#hero" class="scroll-more"><i class="fa fa-angle-down"></i></a> -->
 </section>

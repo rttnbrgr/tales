@@ -41,9 +41,17 @@
 
 <body>
 
+<a href="#" class="nav-toggle">
+	<span>toggle</span>
+</a>
+
 <!-- <div class="size-testr"></div> -->
 <section class="fold">
 	
+
+		
+
+
 	<header>
 		<a href="/" id="home">
 			<svg class="avi" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -95,15 +103,15 @@
 
 	<nav class="container">
 	  
+	  
 	    <a href="https://www.behance.net/nroth10">Portfolio</a>
 	  
 	    <a href="/blog">Blog</a>
 	  
 	    <a href="mailto:nroth10@gmail.com">Contact</a>
 	  
-	</nav>
 
-	<div class="social">
+		<div class="social">
 	
 	
 		<a href="http://twitter.com/tayoxlife" class="fa fa-twitter"></a>
@@ -113,6 +121,8 @@
 
 </div>
 
+
+	</nav>
 
 	<!-- scroll more -->
 	<!-- <a href="#hero" class="scroll-more"><i class="fa fa-angle-down"></i></a> -->
@@ -162,5 +172,21 @@
 
 </div>
 
+<script>
+	
+// (function () {
+//     $('.menu-trigger').on('click', function () {
+//         return $(this).toggleClass('active');
+//     });
+// }.call(this));
+
+$('.nav-toggle').on('click', function () {
+	$(this).toggleClass('active');
+	$('header').toggleClass('active');
+	// console.log('this');
+
+});
+
+</script>
 </body>
 </html>
