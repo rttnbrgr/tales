@@ -671,7 +671,9 @@ ol.posts {
     z-index: -1; }
   .sfp-wrapper:after {
     background-image: -webkit-linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%);
-    background-image: linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%); }
+    background-image: linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%);
+    background-image: linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%); }
   .sfp-wrapper:before {
     background-image: url("/assets/img/sfp-bg.jpeg");
     background-position: center bottom;
@@ -696,8 +698,6 @@ ol.posts {
     color: #347291;
     padding-right: 1em;
     padding-left: 1em; }
-    .sfp-wrapper p.intro {
-      color: white; }
     .sfp-wrapper p a {
       color: #5dbce6; }
       .sfp-wrapper p a:hover {
@@ -750,6 +750,8 @@ ol.posts {
   -o-justify-content: center;
   justify-content: center;
   -ms-flex-pack: center; }
+  #sfp-hero p {
+    color: white; }
 
 a.sfp-toggle-link {
   font-weight: 300;
@@ -795,19 +797,24 @@ a.scroll-section {
     background-color: #347291; }
   .logo:after, .logo:before {
     content: "";
-    position: absolute; }
+    position: absolute;
+    -webkit-transform: skew(-5deg, -10deg);
+    -moz-transform: skew(-5deg, -10deg);
+    -ms-transform: skew(-5deg, -10deg);
+    -o-transform: skew(-5deg, -10deg);
+    transform: skew(-5deg, -10deg); }
   .logo:before {
-    right: 50%;
-    top: 6%;
+    right: 45%;
+    top: 10%;
     border: 0em solid transparent;
-    border-right: 2em solid white;
-    border-top: 5em solid transparent; }
+    border-right: 1.81818em solid white;
+    border-top: 4.34783em solid transparent; }
   .logo:after {
-    left: 50%;
-    bottom: 6%;
+    left: 45%;
+    bottom: 10%;
     border: 0em solid transparent;
-    border-left: 2em solid white;
-    border-bottom: 5em solid transparent; }
+    border-left: 1.81818em solid white;
+    border-bottom: 4.34783em solid transparent; }
 
 section.content {
   padding: 3em 0;
