@@ -1,10 +1,10 @@
-<a href="#" class="nav-toggle">
-	<span>toggle</span>
-</a>
 
 <!-- <div class="size-testr"></div> -->
-<section class="fold">
+<section class="fold" id="navbar">
 	
+	<a href="#" class="nav-toggle">
+		<span>toggle</span>
+	</a>
 
 		
 
@@ -15,11 +15,12 @@
 		</a>
 	</header>
 
-	<nav class="container">
+	<nav class="">
 	  
 	  {% for item in site.data.settings.nav %}
 	    <a href="{{ item.url }}">{{ item.name }}</a>
 	  {% endfor %}
+	    <a href="#" class="sfp-toggle">Storm Front</a>
 
 		{% include social.html %}
 	</nav>

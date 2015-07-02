@@ -4,13 +4,29 @@
  <title>†∆¥Ø</title>
  <link href="http://tayo.co/atom.xml" rel="self"/>
  <link href="http://tayo.co/"/>
- <updated>2015-06-29T15:44:39-04:00</updated>
+ <updated>2015-07-01T22:29:11-04:00</updated>
  <id>http://tayo.co</id>
  <author>
    <name>Nathan Rothenberger</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>idea for a music post</title>
+   <link href="http://tayo.co/2015/06/30/post-about-the-hamburger/"/>
+   <updated>2015-06-30T10:09:58-04:00</updated>
+   <id>http://tayo.co/2015/06/30/post-about-the-hamburger</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://elijahmanor.com/css-animated-hamburger-icon/&quot;&gt;0&lt;/a&gt;
+&lt;a href=&quot;http://codepen.io/elijahmanor/pen/Igpoe&quot;&gt;0p&lt;/a&gt;
+&lt;a href=&quot;http://codepen.io/search?q=animated+hamburger&amp;amp;limit=all&amp;amp;depth=everything&amp;amp;show_forks=false&quot;&gt;Codepens&lt;/a&gt;
+&lt;a href=&quot;http://codepen.io/robojack/pen/KewHx&quot;&gt;1&lt;/a&gt;
+&lt;a href=&quot;http://codepen.io/chriswrightdesign/pen/Hrjfe&quot;&gt;2&lt;/a&gt;
+&lt;a href=&quot;http://codepen.io/gerardlc/pen/ifHEl&quot;&gt;3&lt;/a&gt;
+&lt;a href=&quot;http://codepen.io/u/pen/jGHch&quot;&gt;4&lt;/a&gt;
+&lt;a href=&quot;http://codepen.io/mattaxell/pen/Bwvqo&quot;&gt;5&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>fucked</title>

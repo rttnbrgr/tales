@@ -1,7 +1,14 @@
 // Header
 @import "header";
+// nav toggle thing
+@import "navbar-toggle";
+
 // HERO
 @import "hero";
+#hero {
+	// margin-top: 200%;
+}
+
 // BLOG
 @import "blog";
 // PORTFOLIO
@@ -10,69 +17,6 @@
 @import "social";
 
 
-// nav toggle thing
 
-$navbar-toggle-width:		1.5em;
-$navbar-toggle-height:	0.2em;
-$navbar-toggle-color:		$black;
-
-
-.nav-toggle {
-	@include position(absolute 0 null null 0);
-	// @include size(7em);
-	margin: 1em 0 0 1em;
-	background-color: #eee;
-	cursor: pointer;
-	display: block;
-	position: relative;
-	text-indent: -999999px;
-
-	span,
-	span:before,
-	span:after {
-		background-color: black;
-		display: block;
-		position: absolute;
-		width: $navbar-toggle-width;
-		height: $navbar-toggle-height;
-		left: 0;
-		@include transition(all .5s ease-in-out);
-	}
-
-	span {
-		top: $navbar-toggle-height*2;
-		@include transition(background-color 0.6s ease-in);		
-
-		&:before, &:after { 
-			content: ""; 
-		}
-		&:before { 
-			top: -($navbar-toggle-height*2); 
-		}
-		&:after { 
-			top: ($navbar-toggle-height*2); 
-		}
-
-	} 
-	
-	// active toggle
-	&.active {
-		
-		span {
-
-			background-color: transparent;
-			@include transition(background-color 0.2s linear);
-
-			&:before {
-				@include transform( rotate(45deg) );
-			}
-			&:after {
-				@include transform( rotate(-45deg) );
-			}
-			&:before, &:after { 
-				top: 0; 
-			}
-		}
-	}
-}
-
+// SFP
+@import "sfp";
