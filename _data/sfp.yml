@@ -26,8 +26,8 @@ content:
 
 wow: {
 	duration: 1s,
-	delay: 0.5s,
-	offset: 100,
+	delay: 0.2s,
+	offset: 10,
 	iteration: 1
 }
 

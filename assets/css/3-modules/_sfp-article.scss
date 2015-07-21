@@ -1,0 +1,58 @@
+//////////////////////////////////////////
+// Article 
+
+section.content {
+	padding: 3em 0;
+	margin-bottom: 2em;
+	// min-height: 100%;
+	// min-height: 100vh;
+	clear: both;
+
+	// debug
+	// &:nth-child(even) { background-color: #f9f9f9; }
+
+	.content-img {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding: 2em;
+		// @extend %size-testr;
+
+		svg {
+			fill: $blue1;
+			max-width: 100%;
+		}
+
+	}
+	
+	.content-text {
+		position: relative;
+		display: block;
+		width: 100%;
+	}
+	
+	@include bp(mama) {
+		min-height: 50%;
+		min-height: 50vh;
+
+		.content-img {
+			float: left;
+			width: 40%;
+		}
+
+		.content-text {
+			width: 60%;
+			float: left;
+		}
+
+		// &.2-column:nth-child(even) { 
+		// 	.content-img { float: right; }
+		// }
+			
+
+		&.right {
+			.content-img { float: right; }
+		}
+
+	}
+}

@@ -23,11 +23,7 @@
 		<section class="content 2-column {{ item.extraClass }}" id="article{{ item.id }}">
 			
 			<!-- <div class="content-img wow bounceInRight" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="100px" data-wow-iteration="10"> -->
-			<div class="content-img wow {{ item.animation }}" 
-			data-wow-duration="{{ site.data.sfp.wow.duration }}" 
-			data-wow-delay="{{ site.data.sfp.wow.delay }}" 
-			data-wow-offset="{{ site.data.sfp.wow.offset }}"
-			data-wow-iteration="{{ site.data.sfp.wow.iteration }}">
+			<div class="content-img wow {{ item.animation }}" data-wow-duration="{{ site.data.sfp.wow.duration }}" data-wow-delay="{{ site.data.sfp.wow.delay }}" data-wow-offset="{{ site.data.sfp.wow.offset }}" data-wow-iteration="{{ site.data.sfp.wow.iteration }}">
 				{% include {{ item.imgPath }} %}
 			</div>
 			<div class="content-text">
@@ -43,6 +39,16 @@
 			
 			{{ site.data.sfp.thankYou | markdownify }}
 			{{ site.data.sfp.thankYouNote | markdownify }}
+			
+			<a href="#" class="contact">
+				<i class="fa fa-phone"></i>
+				503.810.3903
+			</a>
+			
+			<a href="mailto:nroth10@gmail.com" class="contact">
+				<i class="fa fa-envelope"></i>
+				nroth10@gmail.com
+			</a>
 			
 		</section>
 

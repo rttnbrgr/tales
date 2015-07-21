@@ -1,0 +1,19 @@
+//////////////////////////////////////////
+// Hero
+
+
+#sfp-hero {
+	text-align: center;
+	display: block;
+	min-height: 100%;
+	min-height: 100vh;
+	padding: 5em 0 3em;
+	position: relative;
+
+	@include display(flex);
+	@include flex-direction(column);
+  @include justify-content(center);
+
+  p { color: white; }
+	
+}

@@ -1,0 +1,55 @@
+//////////////////////////////////////////
+// thanks
+
+
+section.thanks {
+	
+	a.contact {
+		display: block;
+		font-weight: 400;
+		
+		@include bp(baby) {
+			display: inline-block;
+			padding: 1em 2em;
+		}
+
+		i {
+			margin-right: 0.4em;
+		}
+	}
+
+}
+
+//////////////////////////////////////////
+// Video 
+
+section.video {
+	background-color: $blue1;
+	padding: 3em;
+	@include display(flex);
+	// @include align-items(stretch);
+  @include flex-direction(column);
+  @include justify-content(center);
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+	@include transition(all .5s linear);
+	
+	// this is how we hide it
+	&.curtains { padding: 0; }	
+	
+	iframe {
+		@include position(absolute, 0);
+		@include size(100%);
+		// position: absolute;
+		// top: 0;
+		// left: 0;
+		// width: 100%;
+		// height: 100%;
+	}
+}

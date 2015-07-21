@@ -1,0 +1,113 @@
+body {
+	// background-image: url("/assets/img/sfp-bg.jpeg") ;
+	// background-position: center bottom;
+	// background-repeat: no-repeat;
+	// background-size: cover; 
+}
+
+// import Lato font
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+$blue1: #5dbce6; // light blue
+// $blue2: #3a80a3; // dark blue
+$blue2: #347291; // dark blue
+$sfp-font-family: 'lato', helvetica-neue, sans-serif;
+$blue1-hsla: 197, 59, 90;
+$blue1-rgba: 93, 188, 230, 0.8;
+
+
+// The wrapper
+.sfp-wrapper {
+	z-index: 9999;
+	@include position(absolute, 0 0 -25% 0);
+	@include transform( translatex(100%) );
+	@include transition(all .5s ease-out);
+	&.slide { @include transform( translatex(0%) ); }
+	
+	@include bp(baby) {
+		@include position(absolute, 0);
+	}
+	// overflow-y: scroll;
+	// debug
+	background-color: pink;
+
+	// mutltiple backgrounds stuff
+	&:after, &:before {
+		content: "";
+	  @include position(absolute, 0);	  	
+	  z-index: -1;	  
+	}	
+	// the gradient
+	&:after {
+		// @include background-image( linear-gradient(120deg, hsla(197, 59, 90, 0.8) 0%, $blue2 100%) );		
+		@include background-image( linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%) );		
+		@include background-image( linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%) );		
+		// background-color: rgba( 93, 188, 230, 0.7 );		
+	}	
+	// the mountains
+	&:before {
+		background-image: url("/assets/img/sfp-bg.jpeg") ;
+  	background-position: center bottom;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+  	background-attachment: fixed; 	
+	}
+
+	// kill this?
+	.container {
+		// padding: 0 2em;
+	}
+	
+	// TYPOGRAPHY
+	font-family: $sfp-font-family;
+	font-weight: 400;
+	line-height: 2;
+	text-align: center;
+
+	a {
+		@include transition(all .25s ease-in-out);
+		text-decoration: none;
+		color: $blue2;
+		// display: block;
+		&:hover { color: white; }
+
+		&.big-link {
+			font-weight: 300;
+			font-size: 3.5em;
+		}
+	}
+
+	p {
+		max-width: 34em;
+		margin-left: auto;
+		margin-right: auto;
+		color: $blue2;
+		padding-right: 1em;
+		padding-left: 1em;		
+		a {
+			color: $blue1;
+			&:hover { color: $blue2; }
+		}
+	}
+
+	h1 {
+		font-weight: 700;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  font-size: 1em;
+	  margin: 2em auto 1em;
+	  color: white;
+	  &.sfp-title { color: $blue2; }
+	  color: $blue1;
+	  max-width: 33em;
+	}
+
+	h2 {
+		font-weight: 300;
+		font-size: 3em;
+		letter-spacing: 0;
+		color: white;
+		margin-bottom: 0;
+	}
+	
+}

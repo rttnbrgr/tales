@@ -1,0 +1,31 @@
+//////////////////////////////////////////
+// Special links
+
+a.sfp-toggle-link {
+	font-weight: 300;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	@include position(fixed, 1em 1em null null);
+
+	> i { margin-left: 0.5em; }
+	&:hover { 
+		// text-decoration: underline; 
+		color: $blue2;
+	}
+
+	@include bp(mama) {
+		right: 2em;
+	}
+}
+
+a.scroll-section {
+	font-weight: 300;
+	font-size: 2em;
+	// color: $blue2;
+	&:hover {
+		// color: white; 
+		text-decoration: none;
+	}
+}
