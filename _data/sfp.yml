@@ -1,0 +1,60 @@
+intro: "Howdy gals and fellas. I want to make cool things with people who care. Instead of updating my resume, I made you a website."
+
+
+content: 
+- { headline: "# Howdy Folks",
+		text: "My name is Nathan. I'm designer by trade who has spent that past half decade teaching myself to code. I now work primarily on front-end development projects. The foundation of design problem solving and an eye for effective aesthetic solutions has helped me work throught this transition.  While printed objects will always hold a place in my heart, the web is where all the action is today. From apps to parallax, the limits of what the blank page can become are endless in this new medium.",
+		imgPath: "svg/icon3.html",
+		id: "1",
+		extraClass: 'right',
+		animation: 'bounceInRight'
+	}
+- { headline: "# So...You gots any skills?",
+		text: "Glad you asked. I'm proficient in all relevant Adobe CS applications (Illustrator, Photoshop, Indesign). I'm also great with HTML5, CSS(and SASS), and Javascript(espcially when paired with jQuery). I've used a number of blogging platforms in the past (including Wordpress) but find them to be a bit overkill for most of my clients needs today. While back-end languages are not my primary focus, I have expereince with PHP and a litle bit of Ruby. My last website was built on top of Perch CMS, a handly little backend that is entirely PHP driven.",
+		imgPath: "svg/icon2.html",
+		id: "2",
+		animation: 'bounceInLeft'
+	}
+- { headline: "# Part of a team",
+		text: "After freelancing for a number of years, I have grown to appreciate all its advantages. The flexibility, the autonomy(somewhat), and the third thing. But something's missing. While the interent is a wonderful place to learn and meet talented people, it's not the same as being part of a team. I miss being part of something. A group of ambitious, creative people working together. The times I spent working with other designers and developers are filled with constant growth and learning. I would like to be a part of that again.",
+		imgPath: "svg/icon1.html",
+		id: "3",
+		extraClass: 'right',
+		animation: 'bounceInRight'
+	}
+
+
+wow: {
+	duration: 1s,
+	delay: 0.5s,
+	offset: 100,
+	iteration: 1
+}
+
+
+thankYou: "# thank you"
+thankYouNote: "Guys and gals of Stormfront Productions, thank you for taking the time to look over my page. Hopefully it demonstrates the skills and desire I can bring to your oustanding team. With my recent move to the area, I am somewhat of a fish out of water. I look forward to hearing from you and becoming a part of a team of quality people who like to build delightful web things. Please enjoy this closing video of me and a my cat saying thanks."
+
+
+faq:
+- {	question: 'But wait, thers more!', 
+		text: "Haven't had enough of my engaging wit? Still tryiing to understand why someone would rather build an entire site instead of update the single page of a resume? Not entirely sure why anybody would prefer Pepsi to Coke? Well feel free to enjoy this rather esoteric FAQ section."
+}
+- { question: 'how did you make this', 
+		text: "The same way everybody makes the internets. Pixie dust and unicorn tears! Actually it's built using HTML5, CSS, and Javascript. It's using an awesome static site generator called [Jekyll](http://jekyllrb.com) to manage content. The beautiful cascade of styles are sitting on top of [Normalize](http://necolas.github.io/normalize.css/) by [Nicholas Galhager](http://nicolasgallagher.com/), [Animate](http://daneden.github.io/animate.css/) from [Daniel Eden](http://daneden.me/), and the incredibly useful [Bourbon](http://bourbon.io/) by the good folks over at [ThoughtBot](https://thoughtbot.com/). The animations are thanks to the [WOW.js](http://mynameismatthieu.com/WOW/index.html) library. Fun fact, the only image on the page is the mountains in the hero element up at the top of the page."
+}
+- { question: 'Are you a designer or a developer?', 
+		text: "I consider myself a full stack designer. Or a frontend architect. Or a user experience maven. What's do the cool kids say these days? I like solving problems simply and beautifully. I studied design in school and taught myself how to code to continue solving more interesting and relevant problems. Most days my time is split between the sketchbook-and-CS phase and the Sublime-Text-browser-resize phase."
+}
+- { question: 'Podcasts or Music',
+		text: "Why not both!! Seriously, that's a silly question. I have headphones in my ears roughly 93 and a half percent of my waking hours. It is probably broken up about 60/40 podcast to music these days. If you're new to the podcast world (Yes, there are more than Serial), I would suggest checking out [Marc Maron's WTF](http://www.wtfpod.com/) (though, a bit NSFW at times) and [The Nerdist](http://nerdist.com). If you are already an avid podcast fan, hopefully you are keeping up with [Roderick on the Line](http://www.merlinmann.com/roderick/), which is the greatest podcast of all time. For music, I currently use RDIO for most of my music listening needs, though I have a meticulous, metadata rich iTunes library. If you're looking for some awesome new tunes may I suggest FKA Twigs - LP1."
+}
+- { question: "You know that's not our logo, right?",
+		text: "Yes, I do. But it did show up on your twitter, plus it was fun to tackle making it in pure CSS. If you want to see how I did it, check it out [here](http://codepen.io/tayox/pen/aOqbZR)."
+}
+
+
+warning: "# No animals, fictional or other wise, were harmed in the creation of this website."
+
+
+

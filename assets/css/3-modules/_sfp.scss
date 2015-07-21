@@ -1,0 +1,339 @@
+body {
+	// background-image: url("/assets/img/sfp-bg.jpeg") ;
+	// background-position: center bottom;
+	// background-repeat: no-repeat;
+	// background-size: cover; 
+
+}
+
+
+// import Lato font
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+$blue1: #5dbce6;
+$blue2: #3a80a3;
+$blue2: #347291;
+$sfp-font-family: 'lato', helvetica-neue, sans-serif;
+$blue1-hsla: 197, 59, 90;
+$blue1-rgba: 93, 188, 230, 0.8;
+
+
+
+// The wrapper
+.sfp-wrapper {
+	z-index: 9999;
+	@include position(absolute, 0);
+	@include transform( translatex(100%) );
+	@include transition(all .5s ease-out);
+	&.slide { @include transform( translatex(0%) ); }
+	
+	// overflow-y: scroll;
+	// debug
+	background-color: pink;
+
+	// mutltiple backgrounds stuff
+	&:after, &:before {
+		content: "";
+	  @include position(absolute, 0);	  	
+	  z-index: -1;	  
+	}	
+	&:after {
+		// @include background-image( linear-gradient(120deg, hsla(197, 59, 90, 0.8) 0%, $blue2 100%) );		
+		@include background-image( linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%) );		
+		@include background-image( linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%) );		
+		// background-color: rgba( 93, 188, 230, 0.7 );		
+	}	
+	&:before {
+		background-image: url("/assets/img/sfp-bg.jpeg") ;
+  	background-position: center bottom;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+  	background-attachment: fixed; 	
+	}
+
+	// kill this?
+	.container {
+		// padding: 0 2em;
+	}
+	
+	// TYPOGRAPHY
+	font-family: $sfp-font-family;
+	font-weight: 400;
+	line-height: 2;
+	text-align: center;
+
+	a {
+		@include transition(all .25s ease-in-out);
+		text-decoration: none;
+		color: $blue2;
+		// display: block;
+		&:hover { color: white; }
+
+		&.big-link {
+			font-weight: 300;
+			font-size: 3.5em;
+		}
+	}
+
+	p {
+		max-width: 34em;
+		margin-left: auto;
+		margin-right: auto;
+		color: $blue2;
+		padding-right: 1em;
+		padding-left: 1em;		
+		a {
+			color: $blue1;
+			&:hover { color: $blue2; }
+		}
+	}
+
+	h1 {
+		font-weight: 700;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  font-size: 1em;
+	  margin: 2em auto 1em;
+	  // margin-bottom: 1em;
+	  // margin-top: 2em;
+	  color: white;
+	  &.sfp-title { color: $blue2; }
+	  color: $blue1;
+	  max-width: 33em;
+	}
+
+	h2 {
+		font-weight: 300;
+		font-size: 3em;
+		letter-spacing: 0;
+		color: white;
+		margin-bottom: 0;
+	}
+	
+	
+
+
+}
+
+
+//////////////////////////////////////////
+// Hero
+#sfp-hero {
+	text-align: center;
+	display: block;
+	min-height: 100%;
+	min-height: 100vh;
+	padding: 5em 0 3em;
+	position: relative;
+
+	@include display(flex);
+	@include flex-direction(column);
+  @include justify-content(center);
+
+  p { color: white; }
+	
+}
+
+//////////////////////////////////////////
+// Special links
+
+a.sfp-toggle-link {
+	font-weight: 300;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	@include position(fixed, 1em 1em null null);
+
+	> i { margin-left: 0.5em; }
+	&:hover { 
+		// text-decoration: underline; 
+		color: $blue2;
+	}
+
+	@include bp(mama) {
+		right: 2em;
+	}
+}
+
+a.scroll-section {
+	font-weight: 300;
+	font-size: 2em;
+	// color: $blue2;
+	&:hover {
+		// color: white; 
+		text-decoration: none;
+	}
+}
+
+
+//////////////////////////////////////////
+// Lighting Bolt Logo
+
+
+$logo-color: white;
+$logo-size: 10em;
+$logo-vert: 10%;
+$logo-hor: 45%;
+$border-transparent: solid transparent;
+$border-ht-ration: 5.5;
+$border-wd-ration: 2.3;
+
+.logo {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: transparent;
+  
+  @include size($logo-size);
+  border: ($logo-size/20) solid $logo-color;
+
+  @include transition(all .25s ease-in-out);
+    
+  &:hover { 
+  	@include transform(rotate(45deg)); 
+  	background-color: $blue2;
+  }
+  
+  &:after, &:before {
+    content: "";
+    position: absolute;   
+    @include transform( skew(-5deg, -10deg) );
+  }
+
+  &:before {
+    right: $logo-hor;
+    top: $logo-vert;
+    border: 			0em $border-transparent;    
+    border-right: $logo-size/$border-ht-ration solid $logo-color;
+    border-top: 	$logo-size/$border-wd-ration $border-transparent;
+  }
+
+  &:after {
+
+    left: 45%;
+    bottom: 10%;    
+    border: 				0em $border-transparent;	
+    border-left: 		$logo-size/$border-ht-ration solid $logo-color;
+    border-bottom: 	$logo-size/$border-wd-ration $border-transparent;
+  }
+  
+}
+
+
+//////////////////////////////////////////
+// Article 
+
+section.content {
+	padding: 3em 0;
+	margin-bottom: 2em;
+	// min-height: 100%;
+	// min-height: 100vh;
+	clear: both;
+
+	// debug
+	&:nth-child(even) { 
+		background-color: #f9f9f9; 
+	}
+
+	.content-img {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding: 2em;
+		// @extend %size-testr;
+
+		svg {
+			fill: $blue1;
+			max-width: 100%;
+		}
+
+	}
+	.content-text {
+		position: relative;
+		display: block;
+		width: 100%;
+	}
+	
+	@include bp(mama) {
+		min-height: 50%;
+		min-height: 50vh;
+
+		.content-img {
+			float: left;
+			width: 40%;
+		}
+
+		.content-text {
+			width: 60%;
+			float: left;
+		}
+
+		// &.2-column:nth-child(even) { 
+		// 	.content-img { float: right; }
+		// }
+			
+
+		&.right {
+			.content-img { float: right; }
+		}
+
+
+
+
+	}
+}
+
+section.thanks {
+	
+
+	a.contact {
+		display: block;
+		font-weight: 400;
+		
+		@include bp(baby) {
+			display: inline-block;
+			padding: 1em 2em;
+		}
+
+		i {
+			margin-right: 0.4em;
+		}
+	}
+
+}
+
+//////////////////////////////////////////
+// Video 
+
+section.video {
+	background-color: $blue1;
+	padding: 3em;
+	@include display(flex);
+	// @include align-items(stretch);
+  @include flex-direction(column);
+  @include justify-content(center);
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	overflow: hidden;
+	@include transition(all .5s linear);
+	
+	// this is how we hide it
+	&.curtains { padding: 0; }	
+	
+	iframe {
+		@include position(absolute, 0);
+		@include size(100%);
+		// position: absolute;
+		// top: 0;
+		// left: 0;
+		// width: 100%;
+		// height: 100%;
+	}
+}

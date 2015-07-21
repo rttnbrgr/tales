@@ -1,0 +1,15 @@
+# PROJECTS
+
+projects: 
+- {
+	title: Organize Pinboard, 
+	id: stache_pinboard,
+	description: "Pair down, sort, and organize all my pinboard links.",
+	next: "Gather all current tags"
+}
+- { 
+	title: Letter Lover,
+	id: tmblr_letterLover,
+	description: "Start a tumblog for the sake of letter love",
+	next: "Create a tumblog and move it to second postion"
+}
