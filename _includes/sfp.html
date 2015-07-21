@@ -14,11 +14,9 @@
 		</div>
 	</section>
 
-	<div class="container white">
+	<div class="container white sfp-cover-letter">
 		
-		<!-- 1. Why me? -->
-		<!-- 2. who -->
-		<!-- 3. why you -->
+		
 		{% for item in site.data.sfp.content %}
 		<section class="content 2-column {{ item.extraClass }}" id="article{{ item.id }}">
 			
@@ -52,13 +50,27 @@
 			
 		</section>
 
-		<!-- VIDEO -->
-		<section class="content video">
-
-			<div class="videoWrapper curtains"></div>			
-			<a href="#" class="big-link thanks-play"><i class="fa fa-play"></i></a>
+	</div>
+	<div class="vidyuh">
+		<div class="container">
 			
-		</section>
+			<!-- {{ site.data.sfp.thankYou | markdownify }}
+			{{ site.data.sfp.thankYouNote | markdownify }}
+			<a href="#" class="contact"><i class="fa fa-phone"></i>503.810.3903</a>
+			<a href="mailto:nroth10@gmail.com" class="contact"><i class="fa fa-envelope"></i>nroth10@gmail.com</a> -->
+
+			<!-- VIDEO -->
+			<section class="content video">
+
+				<div class="videoWrapper curtains"></div>			
+				<a href="#" class="big-link thanks-play"><i class="fa fa-play"></i></a>
+				
+			</section>
+			
+		</div>
+	</div>
+
+	<div class="container">
 		
 		<!-- FAQ SECTION -->
 		<section class="content more">
@@ -73,10 +85,13 @@
 			{{ site.data.sfp.warning | markdownify }}
 
 		</section>
+	</div>
+
+		
 
 		<!-- Hey, you're readin my code?!? Do you like what you see?  c|:{D // its a mustached man with a hat and a smile!  -->
 
-	</div>
+	<!-- </div> -->
 	
 </div>
 
