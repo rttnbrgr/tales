@@ -2865,6 +2865,8 @@ ol.posts {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; }
+  .sfp-wrapper .container {
+    background-color: white; }
   .sfp-wrapper a {
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
