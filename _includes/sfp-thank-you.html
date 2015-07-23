@@ -1,0 +1,27 @@
+<section class="vidyuh content">
+	<div class="container">
+
+	<section class="thanks">
+		
+		{{ site.data.sfp.thankYou | markdownify }}
+		{{ site.data.sfp.thankYouNote | markdownify }}
+		
+		{% for item in site.data.settings.contact %}
+			<a href="{{ item.url }}" class="contact">
+				<i class="fa fa-{{ item.icon }}"></i>{{ item.data }}
+			</a>
+		{% endfor %}
+		
+	</section>
+
+	<!-- VIDEO -->
+	<section class="content video">
+
+		<div class="videoWrapper curtains"></div>			
+		<a href="#" class="big-link thanks-play"><i class="fa fa-play"></i></a>
+		
+	</section>
+		
+	</div>
+
+</section>

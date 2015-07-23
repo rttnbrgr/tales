@@ -1,39 +1,28 @@
-body {
-	// background-image: url("/assets/img/sfp-bg.jpeg") ;
-	// background-position: center bottom;
-	// background-repeat: no-repeat;
-	// background-size: cover; 
-}
-
-// import Lato font
+// Lato
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+$sfp-font-family: 'lato', helvetica-neue, sans-serif;
 
+// COLORS
 $blue1: #5dbce6; // light blue
 // $blue2: #3a80a3; // dark blue
 $blue2: #347291; // dark blue
-$sfp-font-family: 'lato', helvetica-neue, sans-serif;
-$blue1-hsla: 197, 59, 90;
-$blue1-rgba: 93, 188, 230, 0.8;
 
 
 // The wrapper
 .sfp-wrapper {
 	z-index: 9999;
+	// stretch the wrapper on small screens
 	@include position(absolute, 0 0 -25% 0);
 	@include transform( translatex(100%) );
 	@include transition(all .5s ease-out);
 	&.slide { @include transform( translatex(0%) ); }
 	
-	@include bp(baby) {
-		@include position(absolute, 0);
-	}
-
-	@include bp(mama) {
-
-	}
-	// overflow-y: scroll;
+	// switch back to screen size at 480
+	@include bp(baby) { @include position(absolute, 0); }
+	
 	// debug
 	background-color: pink;
+	background-color: white;
 
 	// mutltiple backgrounds stuff
 	&:after, &:before {
@@ -44,9 +33,8 @@ $blue1-rgba: 93, 188, 230, 0.8;
 	// the gradient
 	&:after {
 		// @include background-image( linear-gradient(120deg, hsla(197, 59, 90, 0.8) 0%, $blue2 100%) );		
-		@include background-image( linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%) );		
-		@include background-image( linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%) );		
-		// background-color: rgba( 93, 188, 230, 0.7 );		
+		// @include background-image( linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%) );		
+		@include background-image( linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%) );				
 	}	
 	// the mountains
 	&:before {
@@ -58,6 +46,7 @@ $blue1-rgba: 93, 188, 230, 0.8;
   	@include bp(papa) { background-attachment: fixed; }
 	}
 
+	
 	// kill this?
 	.container.white {
 		background-color: white;

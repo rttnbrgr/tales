@@ -22,20 +22,6 @@ social:
 # - {icon: 'pinterest', link: 'http://www.pinterest.com/$username/'}	
 
 
-info:
-- {type: phone, data: '503.810.3903', icon: phone, url: "#"}
+contact:
+- {type: phone, data: '503.810.3903', 		 icon: phone, 	 url: "#" }
 - {type: email, data: 'nroth10@gmail.com', icon: envelope, url: "mailto:nroth10@gmail.com" }
-
-faq:
-- {	question: 'more questions', 
-		text: "Haven't had artorial sustainable XOXO, health goth chia gluten-free pork belly Carles fingerstache retro ennui Shoreditch 90's letterpress. Crucifix Intelligentsia lomo, aesthetic bicycle rights hoodie pickled flannel deep v chillwave migas synth normcore irony. Ugh trust fund fanny pack post-ironic."
-}
-- { question: 'how did you make this', 
-		text: "The same way everybody makes the internets. Pixie dust and unicorn tears! Actually it's built using HTML5, CSS, and Javascript. It's using an awesome static site generator called [Jekyll](http://jekyllrb.com) to manage content. The beautiful cascade of styles are sitting on top of [Normalize](http://necolas.github.io/normalize.css/) by [Nicholas Galhager](http://nicolasgallagher.com/) and the incredibly useful [Bourbon](http://bourbon.io/) by the good folks over at [ThoughtBot](https://thoughtbot.com/)."
-}
-- { question: 'Are you a designer or a developer?', 
-		text: "I consider myself a full stack designer. Or a frontend architect. Or a user experience maven. What's do the cool kids say these days? I like solving problems simply and beautifully. I studied design in school and taught myself how to code to continue solving more interesting and relevant problems. Most days my time is split between the sketchbook-and-CS phase and the Sublime-Text-browser-resize phase."
-}
-- { question: 'Podcasts or Music',
-		text: "Cray Echo Park leggings semiotics lo-fi lomo, tote bag American Apparel VHS pop-up Neutra. Freegan keytar kogi Marfa tote bag meggings 3 wolf moon Schlitz cronut, Williamsburg pork belly lo-fi squid pug Neutra. Health goth gluten-free Williamsburg, cred slow-carb Truffaut YOLO small batch dreamcatcher fap fanny pack farm-to-table literally DIY. Hoodie small batch squid ennui."
-}

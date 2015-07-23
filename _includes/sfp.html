@@ -1,97 +1,18 @@
 <div class="sfp-wrapper slide">
 	
-	<section id="sfp-hero">
-		<div class="container">
-			
-			<a href="#" class="sfp-toggle sfp-toggle-link treadmill">Go Back<i class="fa fa-angle-right"></i></a>
-			
-			<div class="logo"></div>
-			<h1 class="sfp-title">stormfront productions</h1>
-			{{ site.data.sfp.intro | markdownify }}			
-			
-			<a href="#article1" class="scroll-section big-link treadmill"><i class="fa fa-angle-down"></i></a>
+	<!-- HERO -->
+	{% include sfp-hero.html %}
+	
+	<!-- Cover Letter -->
+	{% include sfp-cover-letter.html %}
 
-		</div>
-	</section>
-
-	<div class="container white sfp-cover-letter">
-		
-		
-		{% for item in site.data.sfp.content %}
-		<section class="content 2-column {{ item.extraClass }}" id="article{{ item.id }}">
-			
-			<!-- <div class="content-img wow bounceInRight" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="100px" data-wow-iteration="10"> -->
-			<div class="content-img wow {{ item.animation }}" data-wow-duration="{{ site.data.sfp.wow.duration }}" data-wow-delay="{{ site.data.sfp.wow.delay }}" data-wow-offset="{{ site.data.sfp.wow.offset }}" data-wow-iteration="{{ site.data.sfp.wow.iteration }}">
-				{% include {{ item.imgPath }} %}
-			</div>
-			<div class="content-text">
-				{{ item.headline | markdownify }}
-				{{ item.text | markdownify }}				
-			</div>
-			
-		</section>
-		{% endfor %}
-
-		<!-- THANK YOU -->
-		<section class="thanks content">
-			
-			{{ site.data.sfp.thankYou | markdownify }}
-			{{ site.data.sfp.thankYouNote | markdownify }}
-			
-			<a href="#" class="contact">
-				<i class="fa fa-phone"></i>
-				503.810.3903
-			</a>
-			
-			<a href="mailto:nroth10@gmail.com" class="contact">
-				<i class="fa fa-envelope"></i>
-				nroth10@gmail.com
-			</a>
-			
-		</section>
-
-	</div>
-	<div class="vidyuh">
-		<div class="container">
-			
-			<!-- {{ site.data.sfp.thankYou | markdownify }}
-			{{ site.data.sfp.thankYouNote | markdownify }}
-			<a href="#" class="contact"><i class="fa fa-phone"></i>503.810.3903</a>
-			<a href="mailto:nroth10@gmail.com" class="contact"><i class="fa fa-envelope"></i>nroth10@gmail.com</a> -->
-
-			<!-- VIDEO -->
-			<section class="content video">
-
-				<div class="videoWrapper curtains"></div>			
-				<a href="#" class="big-link thanks-play"><i class="fa fa-play"></i></a>
-				
-			</section>
-			
-		</div>
-	</div>
-
-	<div class="container">
-		
-		<!-- FAQ SECTION -->
-		<section class="content more">
-			
-			{% for item in site.data.sfp.faq %}
-			<article>
-				<h1>{{ item.question }}</h1>
-				{{ item.text | markdownify }}
-			</article>
-			{% endfor %}
-
-			{{ site.data.sfp.warning | markdownify }}
-
-		</section>
-	</div>
-
-		
-
-		<!-- Hey, you're readin my code?!? Do you like what you see?  c|:{D // its a mustached man with a hat and a smile!  -->
-
-	<!-- </div> -->
+	<!-- Thank You & Video -->
+	{% include sfp-thank-you.html %}
+	
+	<!-- Questions -->
+	{% include sfp-faq.html %}
+	
+	<!-- Hey, you're readin my code?!? Do you like what you see?  c|:{D // its a mustached man with a hat and a smile!  -->
 	
 </div>
 

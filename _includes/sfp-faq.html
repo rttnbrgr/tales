@@ -1,0 +1,16 @@
+<div class="container">
+	
+	<!-- FAQ SECTION -->
+	<section class="content more">
+		
+		{% for item in site.data.sfp.faq %}
+		<article>
+			<h1>{{ item.question }}</h1>
+			{{ item.text | markdownify }}
+		</article>
+		{% endfor %}
+
+		{{ site.data.sfp.warning | markdownify }}
+
+	</section>
+</div>

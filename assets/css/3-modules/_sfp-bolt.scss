@@ -25,6 +25,9 @@ $border-wd-ration:    2.3;
   	@include transform(rotate(45deg)); 
   	background-color: $blue2;
   }
+  // &:focus { background-color: red; }
+  
+
   
   &:after, &:before {
     content: "";

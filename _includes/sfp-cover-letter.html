@@ -1,0 +1,17 @@
+<div class="container white sfp-cover-letter">
+	
+	{% for item in site.data.sfp.content %}
+	<section class="content 2-column {{ item.extraClass }}" id="article{{ item.id }}">
+		
+		<div class="content-img wow {{ item.animation }} {{item.extraClass }}" data-wow-duration="{{ site.data.sfp.wow.duration }}" data-wow-delay="{{ site.data.sfp.wow.delay }}" data-wow-offset="{{ site.data.sfp.wow.offset }}" data-wow-iteration="{{ site.data.sfp.wow.iteration }}">
+			{% include {{ item.imgPath }} %}
+		</div>
+		<div class="content-text">
+			{{ item.headline | markdownify }}
+			{{ item.text | markdownify }}				
+		</div>
+		
+	</section>
+	{% endfor %}
+
+</div>
