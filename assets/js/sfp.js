@@ -36,25 +36,7 @@ function videoHandler(){
 	});
 }
 
-function treadMillz(){
-
-	$('a.treadmill').click(function(e) {
-		e.preventDefault();
-		console.log('fired');
-
-	})
-
-	$('.scroll-target').click(function(){
-			console.log('click');
-			// var ref = $(this).attr('href')
-				// $ref = $(ref);
-				// navHeight = $('nav').outerHeight()
-			
-			// scrollToDiv($ref, 0);
-			// return false;
-	});
-}
-
+// smooth-scroll
 function treadMill() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -62,8 +44,9 @@ function treadMill() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top          
         }, 1000);
+        console.log('treadmill just ran thru' + target);
         return false;
       }
     }

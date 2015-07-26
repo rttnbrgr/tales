@@ -4,15 +4,16 @@ $sfp-font-family: 'lato', helvetica-neue, sans-serif;
 
 // COLORS
 $blue1: #5dbce6; // light blue
-// $blue2: #3a80a3; // dark blue
 $blue2: #347291; // dark blue
 
 
 // The wrapper
 .sfp-wrapper {
-	z-index: 9999;
 	// stretch the wrapper on small screens
 	@include position(absolute, 0 0 -25% 0);
+	
+	// this is all for the slide movement
+	z-index: 9999;
 	@include transform( translatex(100%) );
 	@include transition(all .5s ease-out);
 	&.slide { @include transform( translatex(0%) ); }
@@ -30,12 +31,12 @@ $blue2: #347291; // dark blue
 	  @include position(absolute, 0);	  	
 	  z-index: -1;	  
 	}	
+	
 	// the gradient
 	&:after {
-		// @include background-image( linear-gradient(120deg, hsla(197, 59, 90, 0.8) 0%, $blue2 100%) );		
-		// @include background-image( linear-gradient(120deg, rgba(93, 188, 230, 0.7) 0%, rgba(52, 114, 145, 0.7) 100%) );		
-		@include background-image( linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%) );				
-	}	
+		@include background-image( linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%) );
+	}
+
 	// the mountains
 	&:before {
 		background-image: url("/assets/img/sfp-bg.jpeg") ;
@@ -65,10 +66,10 @@ $blue2: #347291; // dark blue
 		// display: block;
 		&:hover { color: white; }
 
-		&.big-link {
-			font-weight: 300;
-			font-size: 3.5em;
-		}
+		// &.big-link {
+		// 	font-weight: 300;
+		// 	font-size: 3.5em;
+		// }
 	}
 
 	p {

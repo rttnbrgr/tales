@@ -2814,12 +2814,12 @@ ol.posts {
     text-decoration: none; }
 
 .sfp-wrapper {
-  z-index: 9999;
   position: absolute;
   top: 0;
   right: 0;
   bottom: -25%;
   left: 0;
+  z-index: 9999;
   -webkit-transform: translatex(100%);
   -moz-transform: translatex(100%);
   -ms-transform: translatex(100%);
@@ -2876,9 +2876,6 @@ ol.posts {
     color: #347291; }
     .sfp-wrapper a:hover {
       color: white; }
-    .sfp-wrapper a.big-link {
-      font-weight: 300;
-      font-size: 3.5em; }
   .sfp-wrapper p {
     max-width: 34em;
     margin-left: auto;
@@ -2940,6 +2937,21 @@ ol.posts {
   -ms-flex-pack: center; }
   #sfp-hero p {
     color: white; }
+  #sfp-hero h1 {
+    color: #347291; }
+  #sfp-hero a.treadmill {
+    -webkit-transform: translatey(9%);
+    -moz-transform: translatey(9%);
+    -ms-transform: translatey(9%);
+    -o-transform: translatey(9%);
+    transform: translatey(9%);
+    font-size: 3.5em; }
+    #sfp-hero a.treadmill:hover {
+      -webkit-transform: translatey(0%);
+      -moz-transform: translatey(0%);
+      -ms-transform: translatey(0%);
+      -o-transform: translatey(0%);
+      transform: translatey(0%); }
 
 a.sfp-toggle-link {
   font-weight: 300;
