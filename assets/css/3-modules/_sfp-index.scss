@@ -1,13 +1,25 @@
 // Bits & Body & Type
 @import "sfp-base";
-// Hero
-@import "sfp-hero";
-// Special links
-@import "sfp-links";
 // Lighting Bolt Logo
 @import "sfp-bolt";
+// Hero
+@import "sfp-hero";
+// Special links; only the go back link
+@import "sfp-links";
+
+
+
 // Article 
 @import "sfp-article";
 
 // Thanks & Video
 @import "sfp-article2";
+
+
+// DEBUG
+
+body {
+	// background-color: coral;
+}
+
+// .content:nth-child(even) { background-color: #f9f9f9; }	

@@ -18,17 +18,14 @@ $border-wd-ration:    2.3;
   background-color: transparent;
   
   @include size($logo-size);
-  border: ($logo-size/20) solid $logo-color;
+  border: ($logo-size/25) solid $logo-color;
   @include transition(all .25s ease-in-out);
     
   &:hover, &:focus, &:active { 
   	@include transform(rotate(45deg)); 
-  	background-color: $blue2;
-  }
-  // &:focus { background-color: red; }
-  
-
-  
+    background-color: $blue2;    
+  }  
+    
   &:after, &:before {
     content: "";
     position: absolute;   

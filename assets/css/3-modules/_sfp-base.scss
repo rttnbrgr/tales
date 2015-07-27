@@ -6,8 +6,12 @@ $sfp-font-family: 'lato', helvetica-neue, sans-serif;
 $blue1: #5dbce6; // light blue
 $blue2: #347291; // dark blue
 
+%levitate {
+	@include transform( translatey(9%) );
+	&:hover { @include transform( translatey(0%) ); }
+}
 
-// The wrapper
+// The wrapper bg
 .sfp-wrapper {
 	// stretch the wrapper on small screens
 	@include position(absolute, 0 0 -25% 0);
@@ -23,7 +27,7 @@ $blue2: #347291; // dark blue
 	
 	// debug
 	background-color: pink;
-	background-color: white;
+	// background-color: white;
 
 	// mutltiple backgrounds stuff
 	&:after, &:before {
@@ -46,14 +50,10 @@ $blue2: #347291; // dark blue
   	// fix for iOS scrolling issue
   	@include bp(papa) { background-attachment: fixed; }
 	}
+}
 
-	
-	// kill this?
-	.container.white {
-		background-color: white;
-	}
-	
-	// TYPOGRAPHY
+// TYPOGRAPHY
+.sfp-wrapper {
 	font-family: $sfp-font-family;
 	font-weight: 400;
 	line-height: 2;
@@ -65,11 +65,14 @@ $blue2: #347291; // dark blue
 		color: $blue2;
 		// display: block;
 		&:hover { color: white; }
+		
+		// hero & video play only
+		&.big-link {
+			font-weight: 300;
+			font-size: 3.5em;
+			@extend %levitate;
+		}
 
-		// &.big-link {
-		// 	font-weight: 300;
-		// 	font-size: 3.5em;
-		// }
 	}
 
 	p {
@@ -79,6 +82,8 @@ $blue2: #347291; // dark blue
 		color: $blue2;
 		padding-right: 1em;
 		padding-left: 1em;		
+		
+		// FAQ section
 		a {
 			color: $blue1;
 			&:hover { color: $blue2; }
@@ -86,15 +91,14 @@ $blue2: #347291; // dark blue
 	}
 
 	h1 {
+	  margin: 1.5em auto 1em;
+	  // this is for the disclaimer
+	  max-width: 33em;
+	  font-size: 1em;
 		font-weight: 700;
 	  text-transform: uppercase;
 	  letter-spacing: 2px;
-	  font-size: 1em;
-	  margin: 1.5em auto 1em;
-	  color: white;
-	  &.sfp-title { color: $blue2; }
 	  color: $blue1;
-	  max-width: 33em;
 	}
 
 	h2 {

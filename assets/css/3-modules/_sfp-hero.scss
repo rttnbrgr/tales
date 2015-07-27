@@ -16,12 +16,4 @@
 
   p { color: white; }
   h1 { color: $blue2; }
-	a.treadmill {
-		// font-weight: 300;
-		@include transform( translatey(9%) );
-		font-size: 3.5em;
-		&:hover {
-			@include transform( translatey(0%) );
-		}
-	}
 }
