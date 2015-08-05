@@ -2909,7 +2909,8 @@ ol.posts {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #5dbce6; }
+    color: #5dbce6;
+    padding-right: 0 1em; }
   .sfp-wrapper h2 {
     font-weight: 300;
     font-size: 3em;

@@ -1,22 +1,22 @@
-intro: "Howdy gals and fellas. I want to make cool things with people who care. Instead of updating my resume, I made you a website. Enjoy your scroll; I look forward to hearing from you soon."
+intro: "Howdy gals and fellas. I want to make cool things with people who care. Instead of updating my resume, I made you a website. Enjoy your scroll, and I look forward to hearing from you soon."
 
 
 content: 
 - { headline: "# Howdy Folks",
-		text: "My name is Nathan. I'm designer by trade who has spent that past half decade teaching myself to code. I now work primarily on front-end development projects. The foundation of design problem solving and an eye for effective aesthetic solutions has helped me work throught this transition.  While printed objects will always hold a place in my heart, the web is where all the action is today. From apps to parallax, the limits of what the blank page can become are endless in this new medium.",
+		text: "My name is Nathan. I'm designer by trade who has spent that past half decade teaching myself to code. I now work primarily on front-end development projects for clients and hand-lettering in my free time. I recently moved to Lafayette from Portland, OR and have found very few shops in town doing the kind of work that interests me. I noticed you recently had both a web developer and web graphic designer position open up and subsequently filled. I believe I would have been a strong candidate for either position, I am still DEEPLY interested in joining as an intern.",
 		imgPath: "svg/icon3.html",
 		id: "1",
 		extraClass: 'right',
 		animation: 'bounceInRight'
 	}
 - { headline: "# So...You gots any skills?",
-		text: "Glad you asked. I'm proficient in all relevant Adobe CS applications (Illustrator, Photoshop, Indesign). I'm also great with HTML5, CSS(and SASS), and Javascript(espcially when paired with jQuery). I've used a number of blogging platforms in the past (including Wordpress) but find them to be a bit overkill for most of my clients needs today. While back-end languages are not my primary focus, I have expereince with PHP and a litle bit of Ruby. My last website was built on top of Perch CMS, a handly little backend that is entirely PHP driven.",
+		text: "Glad you asked. I'm proficient in all relevant Adobe CS applications (Illustrator, Photoshop, Indesign) as well as communicating layout/mockups in more traditional media (pen, paper, napkin). I'm also great with HTML5, CSS (and SASS), and Javascript (espcially when paired with jQuery). I've used a number of blogging platforms in the past (including Wordpress) but find them to be a bit overkill for most of my clients needs today. While back-end languages are not my primary focus, I have expereince with PHP and a litle bit of Ruby. My last website was built on top of Perch CMS, a handly little backend that is entirely PHP driven. Beyond technical skills, I am a strong communicator, a good teammate, and passionate about the work I do.",
 		imgPath: "svg/icon2.html",
 		id: "2",
 		animation: 'bounceInLeft'
 	}
 - { headline: "# Part of a team",
-		text: "After freelancing for a number of years, I have grown to appreciate all its advantages. The flexibility, the autonomy(somewhat), and the third thing. But something's missing. While the interent is a wonderful place to learn and meet talented people, it's not the same as being part of a team. I miss being part of something. A group of ambitious, creative people working together. The times I spent working with other designers and developers are filled with constant growth and learning. I would like to be a part of that again.",
+		text: "After freelancing for a number of years, I have grown to appreciate all its advantages. The flexibility and autonomy are great, but something's missing. While the interent is a wonderful place to learn and meet talented people, it's not the same as being part of a team. I miss being part of a group of ambitious people working together. The times I spent working with other designers and developers were the most fulfilling of my career. I would like to be a part of that again, and I want to join the team at Stormfront Productions.",
 		imgPath: "svg/icon1.html",
 		id: "3",
 		extraClass: 'right',
@@ -33,11 +33,11 @@ wow: {
 
 
 thankYou: "# thank you"
-thankYouNote: "Guys and gals of Stormfront Productions, thank you for taking the time to look over my page. Hopefully it demonstrates the skills and desire I can bring to your oustanding team. With my recent move to the area, I am somewhat of a fish out of water. I look forward to hearing from you and becoming a part of a team of quality people who like to build delightful web things. Please enjoy this closing video of me and a my cat saying thanks. Check out my [portfolio](http://behance.net/nroth10) or my random doodles on [instagram](http://instagram.com/tayox)."
+thankYouNote: "Guys and gals of Stormfront Productions, thank you for taking the time to look over my page. Hopefully it demonstrates the skills and desire I can bring to your oustanding team. With my recent move to the area, I am somewhat a fish out of water. I want to find a place to grow as both an individual and part of a community. You can view [my work](http://behance.net/nroth10) or take a gander at some [sketchbook doodles](http://instagram/tayox) if you want to see more. I look forward to hearing from you and joining a team of quality people who build delightful web things. Please contact me via phone or email to discuss moving forward. Enjoy this closing video of my cat and I saying thanks (really hope there's at least one cat person watching this right now)."
 
 
 faq:
-- {	question: 'But wait, thers more!', 
+- {	question: "But wait, there's more!", 
 		text: "Haven't had enough of my engaging wit? Still tryiing to understand why someone would rather build an entire site instead of update the single page of a resume? Not entirely sure why anybody would prefer Pepsi to Coke? Well feel free to enjoy this rather esoteric FAQ section."
 }
 - { question: 'how did you make this', 

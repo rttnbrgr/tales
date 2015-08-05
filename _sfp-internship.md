@@ -29,27 +29,24 @@ A career coordinator will be in contact if we are interested in speaking further
 Girls only want a developer with skills.
 
 
+/////
 <!-- 1. Why me? -->
-# Howdy Folks
-My name is Nathan. I'm designer by trade who has spent that past half decade teaching myself to code. I now work primarily on front-end development projects. The foundation of design problem solving and an eye for effective aesthetic solutions has helped me work throught this transition.  While printed objects will always hold a place in my heart, the web is where all the action is today. From apps to parallax, the limits of what the blank page can become are endless in this new medium.
+# Howdy Folks  
+My name is Nathan. I'm designer by trade who has spent the past half decade teaching myself to code. I now work primarily on front-end development projects for clients and hand-lettering in my free time. I recently moved to Lafayette from Portland, OR and have found very few shops in town doing the kind of work that interests me. I noticed you recently had both a web developer and web graphic designer position open up and subsequently filled. I believe I would have been a strong candidate for either position, I am still DEEPLY interested in joining as an intern.
+
+The foundation of design problem solving and an eye for effective aesthetic solutions has helped me work throught this transition.  While printed objects will always hold a place in my heart, the web is where all the action is today. From apps to parallax, the limits of what the blank page can become are endless in this new medium.",
 
 <!-- 2. who -->
-# So...You gots any skills?
-Glad you asked. I'm proficient in all relevant Adobe CS applications (Illustrator, Photoshop, Indesign). I'm also great with HTML5, CSS(and SASS), and Javascript(espcially when paired with jQuery). I've used a number of blogging platforms in the past (including Wordpress) but find them to be a bit overkill for most of my clients needs today. While back-end languages are not my primary focus, I have expereince with PHP and a litle bit of Ruby. My last website was built on top of Perch CMS, a handly little backend that is entirely PHP driven.
+# So...You gots any skills?  
+Glad you asked. I'm proficient in all relevant Adobe CS applications (Illustrator, Photoshop, Indesign) as well as communicating layout/mockups in more traditional media (pen, paper, napkin). I'm also great with HTML5, CSS (and SASS), and Javascript (espcially when paired with jQuery). I've used a number of blogging platforms in the past (including Wordpress) but find them a bit overkill for most my clients needs today. While back-end languages are not my primary focus, I have expereince with PHP and a litle bit of Ruby. My last website was built on top of Perch CMS, a handly little backend that is entirely PHP driven. Beyond technical skills, I am a strong communicator, a good teammate, proactive, and passionate about the work I do."
 
 <!-- 3. why you -->
-After freelancing for a number of years, I have grown to appreciate all its advantages. The flexibility, the autonomy(somewhat), and the third thing. But something's missing. While the interent is a wonderful place to learn and meet talented people, it's not the same as being part of a team. I miss being part of something. A group of ambitious, creative people working together. The times I spent working with other designers and developers are filled with constant growth and learning. I would like to be a part of that again.
+# Part of a team  
+After freelancing for a number of years, I have grown to appreciate all its advantages. The flexibility and autonomy are great, but something's missing. While the interent is a wonderful place to learn and meet talented people, it's not the same as being part of a team. I miss being part of a group of ambitious people working together. The times I spent working with other designers and developers were the most fulfilling of my career. I would like to be a part of that again, and I want to join the team at Stormfront Productions.
 
-
-
-Please 
-
-
-
-## thanks you
-Guys and gals of Stormfront Productions, thank you for taking the time to look over my page. Hopefully it demonstrates the skills and desire I can bring to your oustanding team. With my recent move to the area, I am somewhat of a fish out of water. I look forward to hearing from you and becoming a part of a team of quality people who like to build delightful web things. 
-
-Please enjoy this closing video of me and a my cat saying thanks.
+<!-- thanks -->
+# thanks you
+Guys and gals of Stormfront Productions, thank you for taking the time to look over my page. Hopefully it demonstrates the skills and desire I can bring to your oustanding team. With my recent move to the area, I am somewhat a fish out of water. I want to find a place to grow as both an individual and part of a community. You can view [my work](http://behance.net/nroth10) or take a gander at some [sketchbook doodles](http://instagram/tayox) if you want to see more. I look forward to hearing from you and joining a team of quality people who build delightful web things. Please contact me via phone or email to discuss moving forward. Enjoy this closing video of my cat and I saying thanks (really hope there's at least one cat person watching this right now). 
 
 
 
