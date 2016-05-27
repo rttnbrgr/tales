@@ -1,5 +1,5 @@
 ---
-title: Test
+title: Portfolio
 ---
 {% include head.html %}
 
@@ -29,6 +29,16 @@ title: Test
 		<p>Austin paleo scenester ethical. Selfies listicle Intelligentsia, 90's selvage occupy pork belly bicycle rights keffiyeh typewriter asymmetrical Banksy banjo Echo Park. Marfa you probably haven't heard of them actually, YOLO banjo church-key bitters. Paleo fanny pack sriracha, meditation Pinterest distillery scenester Bushwick XOXO. Master cleanse kale chips YOLO, drinking vinegar art party asymmetrical seitan. Shabby chic four dollar toast actually, Banksy Wes Anderson flannel trust fund try-hard chambray. Lumbersexual cronut selvage pickled banh mi, Echo Park photo booth gastropub VHS pop-up.</p>
 		<p>Cold-pressed leggings Thundercats, McSweeney's dreamcatcher 90's organic Vice letterpress pork belly single-origin coffee pug Odd Future Portland. Sustainable Etsy Kickstarter tattooed, Austin twee biodiesel vegan forage selvage. Lo-fi retro mixtape mumblecore PBR&B farm-to-table American Apparel try-hard, beard direct trade put a bird on it bespoke cliche. Pinterest YOLO chillwave Vice, Austin skateboard migas VHS four loko asymmetrical photo booth. Hoodie food truck hella, biodiesel four dollar toast hashtag selvage fashion axe Thundercats Austin ennui. Pop-up banh mi cardigan typewriter seitan direct trade, American Apparel fap organic ethical Odd Future wayfarers. Put a bird on it narwhal YOLO bespoke, viral cornhole disrupt flannel.</p>
 	</section>
+	<!-- PROJECTS TEST -->
+	<div class="container">
+		<h2>project list</h2>
+		
+		<ul class="project-list ">
+		{% for item in site.data.projects.projects %}
+			<li>{{ item.title }}</li>
+		{% endfor%}
+		</ul>
+	</div>
 
 	<!-- SOCIAL -->
 	<div class="social">

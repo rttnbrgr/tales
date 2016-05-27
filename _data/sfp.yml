@@ -3,20 +3,22 @@ intro: "Howdy gals and fellas. I want to make cool things with people who care. 
 content: 
 - { headline: "# Howdy Folks",
 		text: "My name is Nathan. I'm designer by trade who has spent that past half decade teaching myself to code. I now work primarily on front-end development projects for clients and hand-lettering in my free time. I recently moved to Lafayette from Portland, OR and have found very few shops in town doing the kind of work that interests me. I noticed you recently had both a web developer and web graphic designer position open up and subsequently filled. I believe I would have been a strong candidate for either position, I am still DEEPLY interested in joining as an intern.",
-		imgPath: "svg/icon3.html",
+		imgPath: "job/sfp/icon3.html",
 		id: "1",
 		extraClass: 'right',
 		animation: 'bounceInRight'
 	}
 - { headline: "# So...You gots any skills?",
 		text: "Glad you asked. I'm proficient in all relevant Adobe CS applications (Illustrator, Photoshop, Indesign) as well as communicating layout/mockups in more traditional media (pen, paper, napkin). I'm also great with HTML5, CSS (and SASS), and Javascript (espcially when paired with jQuery). I've used a number of blogging platforms in the past (including Wordpress) but find them to be a bit overkill for most of my clients needs today. While back-end languages are not my primary focus, I have expereince with PHP and a litle bit of Ruby. My last website was built on top of Perch CMS, a handly little backend that is entirely PHP driven. Beyond technical skills, I am a strong communicator, a good teammate, and passionate about the work I do.",
-		imgPath: "svg/icon2.html",
+		# imgPath: "svg/icon2.html",
+		imgPath: "job/sfp/icon2.html",
 		id: "2",
 		animation: 'bounceInLeft'
 	}
 - { headline: "# Part of a team",
 		text: "After freelancing for a number of years, I have grown to appreciate all its advantages. The flexibility and autonomy are great, but something's missing. While the interent is a wonderful place to learn and meet talented people, it's not the same as being part of a team. I miss being part of a group of ambitious people working together. The times I spent working with other designers and developers were the most fulfilling of my career. I would like to be a part of that again, and I want to join the team at Stormfront Productions.",
-		imgPath: "svg/icon1.html",
+		# imgPath: "svg/icon1.html",
+		imgPath: "job/sfp/icon1.html",
 		id: "3",
 		extraClass: 'right',
 		animation: 'bounceInRight'

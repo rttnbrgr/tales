@@ -48,10 +48,6 @@ After freelancing for a number of years, I have grown to appreciate all its adva
 # thanks you
 Guys and gals of Stormfront Productions, thank you for taking the time to look over my page. Hopefully it demonstrates the skills and desire I can bring to your oustanding team. With my recent move to the area, I am somewhat a fish out of water. I want to find a place to grow as both an individual and part of a community. You can view [my work](http://behance.net/nroth10) or take a gander at some [sketchbook doodles](http://instagram/tayox) if you want to see more. I look forward to hearing from you and joining a team of quality people who build delightful web things. Please contact me via phone or email to discuss moving forward. Enjoy this closing video of my cat and I saying thanks (really hope there's at least one cat person watching this right now). 
 
-
-
-
-
 ----
 Why you are writing (the opening paragraph)
 Why they should be interested in you (the body of the letter)
