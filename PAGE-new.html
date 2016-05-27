@@ -1,0 +1,62 @@
+---
+title: Test
+---
+{% include head.html %}
+
+<body>	
+	
+	<header>
+		<a href="{{ site.baseurl }}">
+			{% include svg/avi.html %}
+		</a>
+	</header>
+		
+	<nav>
+		<a href="https://www.behance.net/nroth10">Portfolio</a>
+		<a href="#resume">Hire Me</a>
+		<a href="mailto:nroth10@gmail.com">Contact</a>
+		<a href="#">Projects</a>			
+		<a href="#"><span class="fa fa-chevron"></span></a>			
+	</nav>
+		
+	<!-- HERO -->
+	{% include hero.html %}
+	<!-- PORTFOLIO -->
+	{% include portfolio.html %}
+	<!-- BLOG -->
+	<section id="blog" class="container">
+		<h2>Test Article</h2>
+		<p>Austin paleo scenester ethical. Selfies listicle Intelligentsia, 90's selvage occupy pork belly bicycle rights keffiyeh typewriter asymmetrical Banksy banjo Echo Park. Marfa you probably haven't heard of them actually, YOLO banjo church-key bitters. Paleo fanny pack sriracha, meditation Pinterest distillery scenester Bushwick XOXO. Master cleanse kale chips YOLO, drinking vinegar art party asymmetrical seitan. Shabby chic four dollar toast actually, Banksy Wes Anderson flannel trust fund try-hard chambray. Lumbersexual cronut selvage pickled banh mi, Echo Park photo booth gastropub VHS pop-up.</p>
+		<p>Cold-pressed leggings Thundercats, McSweeney's dreamcatcher 90's organic Vice letterpress pork belly single-origin coffee pug Odd Future Portland. Sustainable Etsy Kickstarter tattooed, Austin twee biodiesel vegan forage selvage. Lo-fi retro mixtape mumblecore PBR&B farm-to-table American Apparel try-hard, beard direct trade put a bird on it bespoke cliche. Pinterest YOLO chillwave Vice, Austin skateboard migas VHS four loko asymmetrical photo booth. Hoodie food truck hella, biodiesel four dollar toast hashtag selvage fashion axe Thundercats Austin ennui. Pop-up banh mi cardigan typewriter seitan direct trade, American Apparel fap organic ethical Odd Future wayfarers. Put a bird on it narwhal YOLO bespoke, viral cornhole disrupt flannel.</p>
+	</section>
+
+	
+
+
+
+	<!-- SOCIAL -->
+	<div class="social">
+		<a href="#"><span class="fa fa-facebook-square"></span></a>
+		<a href="#"><span class="fa fa-tumblr"></span></a>
+		<a href="#"><span class="fa fa-instagram"></span></a>
+		<a href="#"><span class="fa fa-pinterest"></span></a>
+		<a href="#"><span class="fa fa-twitter"></span></a>
+	</div>
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- <script src="/assets/js/jquery-2.1.1.min.js"></script> -->
+<script>
+	$('.resume-toggle').click(function(){
+		console.log('go');
+		$('#resume').toggleClass('hire-me');
+	})
+</script>
+
+</body>
+
+
+</html>

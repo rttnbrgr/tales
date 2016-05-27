@@ -1,0 +1,29 @@
+<section class="" id="sfp-thanks">
+	<div class="container">
+	
+		<!-- THANKS -->
+		<article class="thanks content">
+			
+			{{ site.data.sfp.thankYou | markdownify }}
+			{{ site.data.sfp.thankYouNote | markdownify }}
+			
+			{% for item in site.data.settings.contact %}
+				<a href="{{ item.url }}" class="contact">
+					<i class="fa fa-{{ item.icon }}"></i>{{ item.data }}
+				</a>
+			{% endfor %}
+			
+		</article>
+
+		<!-- VIDEO -->
+		<article class="video content">
+
+			<a href="#" class="big-link thanks-play"><i class="fa fa-play"></i></a>
+			<div class="videoWrapper curtains">
+				<!--  -->
+			</div>
+			
+		</article>
+		
+	</div>
+</section>
