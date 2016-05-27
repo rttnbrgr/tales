@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/34449222/why-isnt-gitignore-ignoring-sass-cache

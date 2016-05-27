@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+# permalink:        pretty
 relative_permalinks: true
 
 # Setup
@@ -23,12 +23,9 @@ version:          0.0.1
 github:
   repo:           https://github.com/tayox/tales
 
-
 sass:
   sass_dir: assets/css
   # style: :nested
 
-
 # Development
-
 port:							4020
