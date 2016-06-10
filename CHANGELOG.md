@@ -1,3 +1,9 @@
+## Todo
+- Edit about.md
+- Cleanup dope post
+- remove drtl post/page 
+
+
 15-06-30
 - got neat working by manual install
 - 
