@@ -23,3 +23,13 @@
 - Merge GH-Pages branch with second commit, "Hello World" index.html
 - Download Poole and move up to /tales parent directory
 - Realize that you actually wanted Hyde and delete everything
+
+
+## @todo.md
+- Make a 404 page
+- Get a grid together
+- Review xml
+
+## _notes.md
+[a link][http://stackoverflow.com/questions/34449222/why-isnt-gitignore-ignoring-sass-cache]
+
