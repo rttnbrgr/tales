@@ -3,22 +3,29 @@
 
 /*
  *
- * Tooling
+ * Hyde Theme
+ * 
+ * Poole
+ * Syntax
+ * Hyde
+ *
+ */
+@import "0-hyde/poole";
+@import "0-hyde/syntax";
+@import "0-hyde/hyde";
+
+
+/*
+ *
+ * Tools
  *
  */
 
 // Bourbon
 @import "1-tools/bourbon/bourbon";
-// Poole, Syntax & Hyde
-@import "1-tools/poole";
-@import "1-tools/syntax";
-@import "1-tools/hyde";
 
 
-p {
-	// color: blue;
-	color: pink;
-}
+
 
 svg.avatar {
 	@include size(auto);
