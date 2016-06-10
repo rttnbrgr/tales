@@ -1,0 +1,1013 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"post",
+				"postComments"
+			],
+			[
+				"ac",
+				"actionCreators"
+			],
+			[
+				"a",
+				"action"
+			],
+			[
+				"p",
+				"postId"
+			],
+			[
+				"ov",
+				"ovy	overflow-y: ${1:hidden};"
+			],
+			[
+				"formCl",
+				"formCloseBtn"
+			],
+			[
+				"js-fo",
+				"js-formOpen"
+			],
+			[
+				"ml",
+				"ml-a	margin-left: auto;"
+			],
+			[
+				"form",
+				"form-visible"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"cur",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"col",
+				"color5"
+			],
+			[
+				"color",
+				"color6"
+			],
+			[
+				"tt",
+				"tt-u	text-transform: uppercase;"
+			],
+			[
+				"js-",
+				"js-formToggle"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"toggle",
+				"toggleMobileNav"
+			],
+			[
+				"mr",
+				"mr-a	margin-right: auto;"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"grey",
+				"grey-dark"
+			],
+			[
+				"w",
+				"w-a	width: auto;"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"gr",
+				"grey-light"
+			],
+			[
+				"pla",
+				"playString"
+			],
+			[
+				"hide",
+				"hideThis"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"video",
+				"video--bg"
+			],
+			[
+				"d-",
+				"d-f	display: flex;"
+			],
+			[
+				"on",
+				"onCommentSubmit"
+			],
+			[
+				"AddF",
+				"AddFishForm"
+			],
+			[
+				"creat",
+				"createBrowserHistory"
+			],
+			[
+				"Rout",
+				"Route"
+			],
+			[
+				"React",
+				"ReactRouter"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"st",
+				"StorePicker"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_layouts/page-job.html",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 575,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tales.sublime-project",
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/2-base/_base-index.scss",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/tayo.scss",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/3-modules/_modules-index.scss",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/2-base/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 139.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 471.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tayo/Dev/tales"
+	],
+	"file_history":
+	[
+		"/Users/tayo/Dev/acq/_Projects/0_wawr/.surgeignore",
+		"/Users/tayo/Dev/react-projects/Learn-Redux-Starter-Files-master/learn-redux/client/components/Photo.js",
+		"/Users/tayo/Dev/react-projects/Learn-Redux-Starter-Files-master/learn-redux/client/reducers/comments.js",
+		"/Users/tayo/Dev/react-projects/Learn-Redux-Starter-Files-master/learn-redux/client/reduxstagram.js",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/layouts/scholarship.application.php",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/layouts/events.tradeshow.php",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/config/config.php",
+		"/Users/tayo/Dropbox/Dev/gamma/robots.txt",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/layouts/global.navbar.php",
+		"/Users/tayo/Dropbox/Dev/gamma/events.html",
+		"/Users/tayo/Dropbox/Dev/gamma/scss/3-modules/_photoset.scss",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/content/photo_bravo_2.html",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/content/photo_staff.html",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/content/photo_board.html",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/forms/tradeshow-application.html",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/forms/membership-application.html",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/content/photo_scholarship.html",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/layouts/scholarship.recipients.php",
+		"/Users/tayo/Dev/Learn-Redux-Starter-Files-master/learn-redux/client/reducers/comments.js",
+		"/Users/tayo/Dev/Learn-Redux-Starter-Files-master/learn-redux/client/components/App.js",
+		"/Users/tayo/Dev/Learn-Redux-Starter-Files-master/learn-redux/client/reducers/posts.js",
+		"/Users/tayo/Dev/Learn-Redux-Starter-Files-master/learn-redux/client/components/Main.js",
+		"/Users/tayo/Design/MediumConcepts/MedConcepts-Squarespace/MDM_Accounts.md",
+		"/Users/tayo/Design/MediumConcepts/MedConcepts-Squarespace/MDM_Squarespace-Brands-Men.md",
+		"/Users/tayo/Dev/Learn-Redux-Starter-Files-master/learn-redux/client/data/posts.js",
+		"/Users/tayo/Dev/Learn-Redux-Starter-Files-master/learn-redux/client/actions/actionCreators.js",
+		"/Users/tayo/Dev/cantaloupe/app/scripts/main.js",
+		"/Users/tayo/Dev/cantaloupe/app/styles/_2-footer.scss",
+		"/Users/tayo/Dev/cantaloupe/app/index-broke.html",
+		"/Users/tayo/Dev/cantaloupe/app/styles/_2-nav.scss",
+		"/Users/tayo/Dev/cantaloupe/app/styles/_2-btn.scss",
+		"/Users/tayo/Dev/cantaloupe/app/styles/_1-base.scss",
+		"/Users/tayo/Dev/cantaloupe/app/styles/_2-header.scss",
+		"/Users/tayo/Dev/cantaloupe/.gitignore",
+		"/Users/tayo/Dev/cantaloupe/gulpfile.babel.js",
+		"/Users/tayo/Dev/cantaloupe/changelog.md",
+		"/Users/tayo/Dev/cantaloupe/.git/config",
+		"/Users/tayo/Dev/cantaloupe/app/styles/_1-mixins.scss",
+		"/Users/tayo/Dev/cantaloupe/node_modules/es5-ext/object/mixin.js",
+		"/Users/tayo/Dev/cantaloupe/app/styles/_2-form.scss",
+		"/Users/tayo/Dropbox/Dev/gamma/perch/templates/layouts/global.footer.php",
+		"/Users/tayo/Dev/cantaloupe/node_modules/are-we-there-yet/tracker-base.js",
+		"/Users/tayo/Dev/cantaloupe/.tmp/scripts/main.js",
+		"/Users/tayo/Dev/cantaloupe/app/svg/tayo-face.svg",
+		"/Users/tayo/Dev/cantaloupe/RREADME.md",
+		"/Users/tayo/Dropbox/Dev/gamma/assets/js/functions.js",
+		"/Users/tayo/Dropbox/Dev/gamma/gulpfile.js",
+		"/Users/tayo/Dropbox/Dev/gamma/business.html",
+		"/Users/tayo/Dropbox/Dev/gamma/_support/16-05-04_HMCC_Edits-Lean.md",
+		"/Users/tayo/Dropbox/Dev/gamma/_support/login-stuff.md",
+		"/Users/tayo/Dropbox/Dev/gamma/_support/@perch.md",
+		"/Users/tayo/Dropbox/Dev/gamma/_support/HMCC_Text-Index.md",
+		"/Users/tayo/Dropbox/Dev/gamma/index.html",
+		"/Users/tayo/Design/1_Twilight-Relays/TR16/Documents/TR16_Elite-List.md",
+		"/Users/tayo/Design/1_Twilight-Relays/TR16/Documents/TR16-Team-List-BagTagCountdown.md",
+		"/Users/tayo/Design/1_Twilight-Relays/TR16/Documents/TR16_Team-List.md",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/RREADME.md",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/app/styles/_2-footer.scss",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/gulpfile.babel.js",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/app/scripts/landing-page.babel.js",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/app/index.html",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/dist/scripts/main.min.js",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/.tmp/scripts/main.js",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/.babelrc",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/scripts/landing-page.babel.js",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/dist/styles/main.css",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/app/styles/_0-normalize.scss",
+		"/Users/tayo/Dev/web-starter-kit-0.6.1/app/styles/_0-mdl-demo.scss",
+		"/Users/tayo/Dev/github/sandwiches/css/main.css",
+		"/Users/tayo/Dev/github/sandwiches/css/1-base.scss",
+		"/Users/tayo/Dev/github/sandwiches/css/_1-variables.scss",
+		"/Users/tayo/Dev/react-stuff/react-for-everyone/webpack.config.js",
+		"/Users/tayo/Dev/react-stuff/react-for-everyone/.gitignore",
+		"/Users/tayo/Dev/react-for-everyone/examples/basic-jsx/index.html",
+		"/Users/tayo/Dev/react-for-everyone/js/example.js",
+		"/Users/tayo/Dev/_projects/video-background.sublime-workspace",
+		"/Users/tayo/Dev/_projects/video-background.sublime-project",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/_2-btn.scss",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/_1-base.scss",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/_notes.md",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/gulpfile.js",
+		"/Users/tayo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/wavy.scss",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/_2-hero.scss",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/index2.html",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/.gitignore",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/test.html",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/package.json",
+		"/Users/tayo/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/hex.css",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/markup.html",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/wavy.css",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/test.jade",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/index.html",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/_2-video.scss",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/_2-video-old.scss",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/CNAME",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/_2-hexagons.scss",
+		"/Users/tayo/Dev/_Labs/video_backgrounds/assets/css/_0-normalize.scss",
+		"/Users/tayo/Dev/github/react-comment-box/comments.json",
+		"/Users/tayo/Dev/github/catch/css/style.styl",
+		"/Users/tayo/Dev/github/catch/gulpfile.js",
+		"/Users/tayo/Library/Application Support/Sublime Text 3/Installed Packages/Emmet.sublime-package"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" [\".",
+			"display: box",
+			"display: blox",
+			"5",
+			"storeSelector"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"storeSelector"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_layouts/page-job.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tales.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/2-base/_base-index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/css/tayo.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assets/css/3-modules/_modules-index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/css/2-base/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tales.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_header",
+				"_includes/header.html"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"-var",
+				"assets/css/2-base/_variables.scss"
+			],
+			[
+				"base-ind",
+				"assets/css/2-base/_base-index.scss"
+			],
+			[
+				"conf",
+				"_config.yml"
+			],
+			[
+				"actio",
+				"client/actions/actionCreators.js"
+			],
+			[
+				"comm",
+				"client/reducers/comments.js"
+			],
+			[
+				"commen",
+				"client/reducers/comments.js"
+			],
+			[
+				"singl",
+				"client/components/Single.js"
+			],
+			[
+				"posts.js",
+				"client/reducers/posts.js"
+			],
+			[
+				"global.n",
+				"perch/templates/layouts/global.navbar.php"
+			],
+			[
+				"confi",
+				"perch/config/config.php"
+			],
+			[
+				"chang",
+				"CHANGELOG.md"
+			],
+			[
+				"schola",
+				"perch/templates/layouts/scholarship.application.php"
+			],
+			[
+				"eve",
+				"events.html"
+			],
+			[
+				"scholarship.ap",
+				"perch/templates/layouts/scholarship.application.php"
+			],
+			[
+				"trade",
+				"perch/templates/layouts/events.tradeshow.php"
+			],
+			[
+				"posts",
+				"reducers/posts.js"
+			],
+			[
+				"main",
+				"components/Main.js"
+			],
+			[
+				"pos",
+				"data/posts.js"
+			],
+			[
+				"store",
+				"store.js"
+			],
+			[
+				"red",
+				"reduxstagram.js"
+			],
+			[
+				"gulpf",
+				"gulpfile.babel.js"
+			],
+			[
+				"main.js",
+				"app/scripts/main.js"
+			],
+			[
+				"-foot",
+				"app/styles/_2-footer.scss"
+			],
+			[
+				"gulp",
+				"gulpfile.babel.js"
+			],
+			[
+				"-btn",
+				"app/styles/_2-btn.scss"
+			],
+			[
+				"full-pa",
+				"app/styles/_2-full-page.scss"
+			],
+			[
+				"-form",
+				"app/styles/_2-form.scss"
+			],
+			[
+				"1-mix",
+				"app/styles/_1-mixins.scss"
+			],
+			[
+				"mixins",
+				"app/styles/_1-mixins.scss"
+			],
+			[
+				"-base",
+				"app/styles/_1-base.scss"
+			],
+			[
+				"mix",
+				"node_modules/es5-ext/object/mixin.js"
+			],
+			[
+				"2-f",
+				"app/styles/_2-form.scss"
+			],
+			[
+				"2-fo",
+				"app/styles/_2-footer.scss"
+			],
+			[
+				"2-n",
+				"app/styles/_2-nav.scss"
+			],
+			[
+				"2-hea",
+				"app/styles/_2-header.scss"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"main.j",
+				".tmp/scripts/main.js"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"1-bas",
+				"app/styles/_1-base.scss"
+			],
+			[
+				"2-bt",
+				"app/styles/_2-btn.scss"
+			],
+			[
+				"main.sc",
+				"app/styles/main.scss"
+			],
+			[
+				"chan",
+				"changelog.md"
+			],
+			[
+				"tayo",
+				"app/svg/tayo-face.svg"
+			],
+			[
+				"footer",
+				"perch/templates/layouts/global.footer.php"
+			],
+			[
+				"landi",
+				"app/scripts/landing-page.babel.js"
+			],
+			[
+				"babel",
+				".babelrc"
+			],
+			[
+				"sc",
+				"js/scripts.js"
+			],
+			[
+				"1",
+				"css/1-base.scss"
+			],
+			[
+				"them",
+				"css/_theme.scss"
+			],
+			[
+				"palet.sc",
+				"bower_components/google-material-color/dist/palette.scss"
+			],
+			[
+				"inde",
+				"index.jade"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"notes",
+				"_notes.md"
+			],
+			[
+				"not",
+				"_notes.md"
+			],
+			[
+				"btn",
+				"assets/css/_2-btn.scss"
+			],
+			[
+				"1-base",
+				"assets/css/_1-base.scss"
+			],
+			[
+				"wav",
+				"assets/css/wavy.scss"
+			],
+			[
+				"hero",
+				"assets/css/_2-hero.scss"
+			],
+			[
+				"note",
+				"_notes.md"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"test.j",
+				"test.jade"
+			],
+			[
+				"test",
+				"test.html"
+			],
+			[
+				"gitigno",
+				".gitignore"
+			],
+			[
+				"2-vid",
+				"assets/css/_2-video.scss"
+			],
+			[
+				"wavy",
+				"assets/css/wavy.scss"
+			],
+			[
+				"cname",
+				"CNAME"
+			],
+			[
+				"help",
+				"scripts/helpers.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

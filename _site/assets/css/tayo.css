@@ -2556,6 +2556,7 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+/* Colours for each box */
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box; }
@@ -2573,7 +2574,8 @@ img {
   display: none !important; }
 
 .size-testr {
-  background: transparent; }
+  background: transparent;
+  background: #3498db; }
   @media screen and (min-width: 30em) {
     .size-testr {
       background-color: #1abc9c; } }
@@ -2658,6 +2660,35 @@ h3 {
 
 span.post-date {
   font-size: .8em; }
+
+header.navbar {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2ecc71; }
+  header.navbar a.home__link {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem;
+    line-height: 0; }
+    header.navbar a.home__link svg {
+      width: 2rem;
+      height: auto; }
+  header.navbar nav {
+    display: flex; }
+    header.navbar nav a {
+      padding: 1rem 0 .1rem;
+      margin: 0 1rem 0 0;
+      line-height: 1;
+      border-bottom: 1px solid red;
+      border-color: transparent;
+      text-decoration: none; }
 
 #navbar {
   -webkit-transition: all 0.5s ease-in-out;
@@ -2816,6 +2847,9 @@ ol.posts {
     margin: 0 0.5em;
     text-decoration: none; }
 
+/* 
+This should get moved to a seperate page 
+*/
 .sfp-wrapper a.big-link, #sfp-thanks .thanks a.contact {
   -webkit-transform: translatey(9%);
   -moz-transform: translatey(9%);

@@ -29,6 +29,8 @@
 // Colored Size breaks
 %size-testr {
 	background: transparent;
+	background: $box2;
+
 	@include bp(baby)  { background-color: $test1; }
 	@include bp(mama)  { background-color: $test2; }
 	@include bp(papa)  { background-color: $test3; }

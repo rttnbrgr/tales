@@ -1,10 +1,26 @@
 {% include head.html %}
 
 <body>
+<header class="navbar">
+	
+	
+	<a href="{{ site.baseurl }}" id="home" class="home__link">
+		{% include svg/avi.html %}
+	</a>
+
+	
+	<nav class="">
+	  
+	  {% for item in site.data.settings.nav %}
+    <a href="{{ item.url }}">{{ item.name }}</a>
+	  {% endfor %}
+		
+	</nav>
+
+</header>
 
 <div class="container">
-	{% include header.html %}
-  {{ content }}
+	{{ content }}
 </div>
 
 {% include footer.html %}
