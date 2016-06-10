@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hyde-post
 title: Introducing Hyde
 tag: job
 ---

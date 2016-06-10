@@ -1,0 +1,26 @@
+---
+---
+
+/*
+ *
+ * Tooling
+ *
+ */
+
+// Bourbon
+@import "1-tools/bourbon/bourbon";
+// Poole, Syntax & Hyde
+@import "1-tools/poole";
+@import "1-tools/syntax";
+@import "1-tools/hyde";
+
+
+p {
+	// color: blue;
+	color: pink;
+}
+
+svg.avatar {
+	@include size(auto);
+	max-height: 11em;
+}
