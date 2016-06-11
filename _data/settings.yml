@@ -21,7 +21,13 @@ social:
 # - {icon: 'tumblr', 		link: 'http://tayox.tumblr.com'}
 # - {icon: 'pinterest', link: 'http://www.pinterest.com/$username/'}	
 
+channels:
+- {icon: 'image', link: 'http://rottenburger.com', label: 'Portfolio'}
+- {icon: 'envelope-o', link: 'mailto:nroth10@gmail.com', label: 'Email'}
+- {icon: 'github-alt', link: 'http://github.com/tayox', label: 'Github'}
 
 contact:
 - {type: phone, data: '503.810.3903', 		 icon: phone, 	 url: "#" }
 - {type: email, data: 'nroth10@gmail.com', icon: envelope, url: "mailto:nroth10@gmail.com" }
+
+twitter: tayoxlife

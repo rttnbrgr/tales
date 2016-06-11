@@ -3164,3 +3164,45 @@ a.sfp-toggle-link {
     left: 0;
     height: 100%;
     width: 100%; }
+
+.container__wrap {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+  border: 0.6rem solid black; }
+  .container__wrap > .center-me {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); }
+  .container__wrap a.tayo {
+    margin-bottom: 1rem;
+    overflow: hidden;
+    display: inline-block; }
+  .container__wrap a.text-link {
+    text-transform: capitalize;
+    display: block;
+    padding: .5rem 0; }
+  .container__wrap .channels {
+    display: block;
+    margin-top: 2rem; }
+    .container__wrap .channels a {
+      display: inline-block;
+      padding: 1rem;
+      margin: 0 0.2rem;
+      color: black; }
+      .container__wrap .channels a:hover {
+        color: #888; }
+      .container__wrap .channels a i.fa {
+        font-size: 2.2rem; }

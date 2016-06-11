@@ -1,0 +1,28 @@
+---
+title: Soon
+---
+{% include head.html %}
+
+<body>
+	
+	<div class="container__wrap">
+		<div class="center-me">
+			
+			<a href="#" class="tayo">
+				{% include svg/avi.html %}
+			</a>
+			<h2>New Site Coming Soon</h2>
+			<a class="text-link" href="{{site.baseurl}}about">Go to the blog</a>
+			<div class="channels">
+				{% for c in site.data.settings.channels %}
+				<a href="{{c.link}}">
+					<i class="fa fa-{{c.icon}}"></i>
+				</a>
+				{% endfor %}
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>

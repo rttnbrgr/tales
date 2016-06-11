@@ -2,11 +2,10 @@
 - Edit about.md
 - Cleanup dope post
 - remove drtl post/page 
-
+- Make coming-soon page
 
 15-06-30
 - got neat working by manual install
-- 
 
 15-06-29
 - Workin on the animated hamburger
