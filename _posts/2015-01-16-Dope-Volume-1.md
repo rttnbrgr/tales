@@ -37,8 +37,6 @@ Etsy vegan forage, lo-fi meh mlkshk listicle Bushwick bespoke tattooed. Sustaina
 - [A Shit Ton of 1970s Logos](https://www.flickr.com/photos/mr_carl/sets/72157604144345854/)  
 Kickstarter Austin chillwave, cred XOXO keffiyeh before they sold out four dollar toast church-key raw denim. Banh mi bespoke pickled put a bird on it.
 
-
-
 ### Theme Song
 <iframe width="100%" height="36" src="https://rd.io/i/QVMFQjdcCDOn/" frameborder="0"></iframe>
 
