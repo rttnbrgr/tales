@@ -1,0 +1,78 @@
+skill-tags: 
+- 'dev'
+- 'design'
+- '!tech'
+
+skills:
+- {
+  title: Adobe Afficionado,
+  level: 50,
+  details: 'Photoshop, Illustrator, Indesign'
+}
+- {
+  title: Stylesheet Ninja,
+  level: 50,
+  details: 'CSS3, Bootstrap/Foundation, SCSS'
+}
+- {
+  title: Javascript Junior ,
+  level: 50,
+  details: 'Vanilla JS, ES2015, jQuery, React'
+}
+- {
+  title: Front End Fanatic,
+  level: 50,
+  details: 'Sublime, Gulp, Node, Terminal'
+}
+- {
+  title: UI/UX/Prototype,
+  level: 50,
+  details: 'Sketch, Marvel, InVision'
+}
+- {
+  title: Visual Communicator,
+  level: 50,
+  details: 'Pen & Pencil Sketch, Cartoon'
+}
+- {
+  title: CMS,
+  level: 50,
+  details: 'Wordpress, Perch, Drupal'
+}
+- {
+  title: Sense of Humor,
+  level: 50,
+  details: 'Are you still reading, How thorough'
+}
+- {
+  title: Communication,
+  level: 50,
+  details: 'Slack, Trello, Concise, Direct'
+}
+- {
+  title: Teamwork,
+  level: 50,
+  details: 'Find solutions, not faults'
+}
+- {
+  title: Hip-Hop,
+  level: 50,
+  details: 'Extensive Knowledge and Opinions'
+}
+
+
+clients: 
+- Nike
+- University of Portland
+- Jesuit High School
+- Redtruck
+- Medium Concepts
+- Darkside Running
+- Hispanic Metropolitan Chamber
+- Medium Concepts
+- Switchfoot’s BroAm
+- Los Alteños
+- First Touch FC
+- Several Satisfied Friends
+- Midly Amused Neighbors
+- Industry “insiders”

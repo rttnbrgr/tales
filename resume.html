@@ -1,0 +1,61 @@
+---
+<!-- layout: hyde-page -->
+title: Resume
+---
+
+{% include head.html %}
+
+<body>
+<div class="size-testr"></div>	
+<!-- inject stuff in here -->
+<div class="content__wrapper">
+	{% include svg/avi.html %}
+	{% include job/resume/intro.html %}
+	
+	<!-- <div class="skill__tag-header"> -->
+		<h2 class="relative">Skills
+			<div class="tags">
+				<span class="skill-tag skill__tag">Dev</span>
+				<span class="skill-tag skill__tag">Design</span>
+				<span class="skill-tag skill__tag">!tech</span>
+			</div>
+		</h2>
+	<!-- </div> -->
+
+	<div class="skill__container">
+		
+		{% for skill in site.data.resume.skills %}
+		<div class="skill">
+			<span class="skill__title skill--text">{{skill.title}}</span>
+			<span class="skill__bar" data-skill="{{skill.level}}"></span>			
+			<span class="skill__details skill--text">{{skill.details}}</span>
+		</div>	
+		{% endfor %}
+
+	</div>
+
+	<h2>Clients</h2>
+	<ul class="client__list">
+	{% for client in site.data.resume.clients %}
+		<li class="client">{{client}}</li>
+	{% endfor %}
+	</ul>
+
+	<h2>FAQ</h2>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+	$('.skill').click( function(e) {
+		var skillDetail = $(this).children('.skill__details');
+		skillDetail.toggleClass('show');		
+	});
+
+	$('.skill__tag').click(function(e) {
+		$(this).toggleClass('active');
+	});
+</script>
+</body>
+</html>
+

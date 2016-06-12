@@ -15,20 +15,20 @@ Listening to a podcast or new album while I fight with my text editor and my cat
 
 ## Show me your stack
 
-* Built on top of the beautiful work by [@mdo][mdo]) and the [Hyde][hyde] theme for [Poole][poole], the butler for [Jekyll][jekyll]). If you are so inclined, you should totally check these things out.
+* Built on top of the beautiful work by [@mdo][mdo] and the [Hyde][hyde] theme for [Poole][poole], the butler for [Jekyll][jekyll]). If you are so inclined, you should totally check these things out.
 * Stylewise, my preprocessor of choice is [SASS][sass] and this project, like most, is taking advantage of [ThoughtBot's][tb] [Bourbon][bourbon].
 * I do my "rough wireframes" on whatever paper is around, lately thats [Rhodia Dot Pads][rhodia] and my [Baron Fig notebook][baron] using blue ball point pens and [Black Wing Pencils][blackwing]
 * UI Design is done entirely in [Sketch][sketch], with some specific vector/raster tasks handled in [AI][ai]/[PS][ps] respectively.
 * My monospace masticator of choice is [Sublime Text 2][st2] with the [Cobalt 2 Theme][cobalt2] by [Wes Bos][wb]
-* Currently hosted on [Hostgator](hg) but will be up on [GitHub pages][ghb] as soon as I straighten out the commits.
+* Currently hosted on [Hostgator][hg] but will be up on [GitHub pages][ghp] as soon as I straighten out the commits.
 
 
 [0]: http://twitter.com/tayoxlife
 [1]: https://github.com/tayox
-[2]: http://rottenberger.com
+[2]: http://rottenburger.com
 [mdo]: http://twitter.com/mdo
 [hyde]: http://hyde.getpoole.com
-[poole]: http://getpoole.com)
+[poole]: http://getpoole.com
 [jekyll]: https://jekyllrb.com/
 [sass]: http://sass-lang.com/
 [tb]: https://thoughtbot.com/

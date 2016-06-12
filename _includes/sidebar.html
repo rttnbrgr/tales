@@ -28,7 +28,8 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
+      
+      <a href="/resume" class="sidebar-nav-item">Resume</a>
       {% for c in site.data.settings.channels %}
         <a href="{{c.link}}" class="sidebar-nav-item">{{c.label}}</a>
       {% endfor %}

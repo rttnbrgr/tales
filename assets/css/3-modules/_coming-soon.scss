@@ -1,0 +1,48 @@
+// COMING SOON
+.container__wrap {
+	@include position(fixed, 0);
+	padding: 1rem;
+	text-align: center;
+	background-color: white;
+	border: 0.6rem solid black;	
+
+	> .center-me {
+		display: block;
+		width: 100%;
+		@include position(absolute, 50% null null 50%);
+		@include transform( translateX(-50%) translateY(-50%) );
+	}
+	
+	// AVI
+	a.tayo {
+		margin-bottom: 1rem;
+		overflow: hidden;
+		display: inline-block;
+	}
+	
+	a.text-link {
+		text-transform: capitalize;
+		display: block;
+		padding: .5rem 0;
+	}
+	
+	// Social Buttons
+	.channels {
+		display: block;
+		margin-top: 2rem;
+
+		a {
+			display: inline-block;
+			padding: 1rem;
+			margin: 0 0.2rem;
+			color: black;
+			
+			&:hover { color: $link-color; }
+			
+			i.fa { font-size: 2.2rem; }
+		}
+	}
+	
+	
+}
+

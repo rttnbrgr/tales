@@ -29,17 +29,34 @@
 // Colored Size breaks
 %size-testr {
 	background: transparent;
-	background: $box2;
-
-	@include bp(baby)  { background-color: $test1; }
-	@include bp(mama)  { background-color: $test2; }
-	@include bp(papa)  { background-color: $test3; }
-	@include bp(grand) { background-color: $test4; }
+	background: $box5;
+	padding-left: 1rem;
+	&::after {
+		content: "default";
+		font-family: "letter-gothic-std",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	
+	// COLORS
+	@include bp(baby)  { background-color: $box1; }
+	@include bp(mama)  { background-color: $box2; }
+	@include bp(papa)  { background-color: $box3; }
+	@include bp(grand) { background-color: $box4; }
+	
+	// ADD TITLES
+	@each $size in baby, mama, papa, grand {
+	  @include bp( #{$size} ) {
+			&::after { content: "#{$size}"; }
+	  }	  
+	}
 }
 
 .size-testr {
 	@extend %size-testr;
 	display: block;
-	@include size(100% 1em);
-	@include position(fixed null 0 0 0);
+	@include size(100% auto);
+	@include position(fixed, null 0 0 0);
 }

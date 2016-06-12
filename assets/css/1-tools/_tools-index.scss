@@ -3,14 +3,11 @@
 // BOURBON
 @import "bourbon/bourbon";
 // NEAT, this is throwing an error
+$gutter: modular-scale(5);
 @import "neat/neat";
 
-// Poole, Syntax & Hyde
-// @import "poole";
-// @import "syntax";
-// @import "hyde";
 
-@import "animate";
+// @import "animate";
 
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
