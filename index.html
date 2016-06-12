@@ -1,6 +1,28 @@
 ---
-layout: 	default
-title: 		Welcome
+title: Soon
 ---
+{% include head.html %}
 
-<!-- HERO -->
+<body>
+	
+	<div class="container__wrap">
+		<div class="center-me">
+			
+			<a href="#" class="tayo">
+				{% include svg/avi.html %}
+			</a>
+			<h2>New Site Coming Soon</h2>
+			<a class="text-link" href="{{site.baseurl}}blog">Go to the blog</a>
+			<div class="channels">
+				{% for c in site.data.settings.channels %}
+				<a href="{{c.link}}">
+					<i class="fa fa-{{c.icon}}"></i>
+				</a>
+				{% endfor %}
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
