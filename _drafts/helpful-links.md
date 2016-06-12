@@ -14,4 +14,5 @@ Where they got their info.
 - [Jekyll Date Formatting](http://alanwsmith.com/jekyll-liquid-date-formatting-examples)  
 Notes on the different options for Jekyll date formatting.
 
-- [Jekyll Docs](http://jekyllrb.com/docs/) Self explanatory.
+- [Jekyll Docs](http://jekyllrb.com/docs/)  
+Self explanatory.

@@ -1,0 +1,61 @@
+---
+layout: hyde-post
+title: DOPE
+---
+
+![DOPE Volume 1](/assets/img/blog/16-05-00_Blog-Dope-1-Black.jpg "DOPE Vol. 1")
+
+
+Marfa cred. Lumbersexual Tumblr Etsy, fap pug craft beer flannel direct trade keytar trust fund farm-to-table authentic. Cliche Thundercats YOLO bicycle rights mlkshk. Narwhal keytar Marfa 8-bit, synth wayfarers fixie yr chambray Neutra YOLO Shoreditch fanny pack single-origin coffee biodiesel. Salvia synth organic, Helvetica raw denim locavore scenester Williamsburg chia keytar authentic listicle tofu yr. Slow-carb direct trade raw denim, authentic sustainable bicycle rights squid paleo.
+
+Post Start Date *2015-01-16*
+
+* [A Year of Messages][dope-1] & [Past Years][dope-1a]
+Aesthetic occupy pop-up cray try-hard, food truck pour-over asymmetrical irony quinoa readymade small batch Helvetica.
+
+* [Roderick On The Line][dope-2]  
+The best podcast. I'm not debating this with you. Featuring former Long Winter's frontman [John Roderick][jr] and productivity guru [Merlin Mann][mm] all the worlds problems are solved, and *SUPERTRAIN* is coming. Merlin, if you're reading this, that joke was for you.
+
+* [Rick Ross - Sanctified (Emoji)][dope-3]  
+I'm not sure exactly how I found this. Probably on [r/HHH][rHHH]. Never was a huge fan of the record itself, but the fan made video, made it enjoyable. Most frustrating Kanye bar: here it is.
+
+* [The Art of Ben Chen][dope-4]  
+Spotted on [imgur][imgur] and then further investigated. The style of illustration is right up my alley. The tone and humor are spot on.
+
+* [Art of Album Covers][dope-5]  
+You like album covers? Me too. And apparently, so does the person running this here tumblr. A look at the source material for some of your favorite album covers and some you probably never saw before.
+
+* [Bruno Walpooth Wood Work][dope-6]  
+Carles tattooed listicle, cornhole Pinterest aesthetic beard. Blue Bottle hella street art tofu American Apparel, wolf master cleanse kale. 
+
+* [UI from Guardians of The Galaxy][dope-7]  
+Chips aesthetic ennui flannel Godard. Artisan Helvetica Pitchfork PBR squid Banksy literally. +1 Intelligentsia Blue Bottle quinoa fixie. 
+
+* [ Rapper's Lexicon ][dope-8]  
+Portland tote bag Pinterest scenester flexitarian Wes Anderson biodiesel Bushwick post-ironic polaroid. Odd Future church-key Pinterest. 
+
+* [Concept Art to Final Product Comparison][dope-9]  
+Etsy vegan forage, lo-fi meh mlkshk listicle Bushwick bespoke tattooed. Sustainable asymmetrical Godard yr, flexitarian hashtag paleo keyta. 
+
+* [A Shit Ton of 1970s Logos][dope-10]  
+Awesome to look at some old identity work. Remembering that an icon needs to work in contrast. Black and white only. Also a reminder there is nothing new under the sun. If you look close you might spot __NOT__ the AirBnB, Beats, and One-More logo.
+
+
+
+[dope-1]: http://www.theverge.com/2014/8/20/6048493/a-years-worth-of-messages-in-twelve-beautiful-charts
+[dope-1a]: http://feltron.com/
+[dope-2]: http://www.merlinmann.com/roderick/
+[dope-3]: https://vimeo.com/88754057
+[dope-4]: https://www.flickr.com/photos/39325907@N04/
+[dope-5]: http://artofalbumcovers.tumblr.com/
+[dope-6]: http://www.walpoth.com/wood.html
+[dope-7]: http://vimeo.com/103533906
+[dope-8]: http://experiments.undercurrent.com/
+[dope-9]: http://www.theverge.com/2014/8/20/6046221/movies-games-concept-art-comparison
+[dope-10]: https://www.flickr.com/photos/mr_carl/sets/72157604144345854/
+
+[imgur]: http://imgur.com/a/5Zy6L
+
+
+![DOPE 1](/assets/img/dope1-web.jpg "DOPE Vol. 1")
+The old cover
