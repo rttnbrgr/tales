@@ -57,3 +57,8 @@ _nvalt_ - 436 notes as of 15-07-07_11:45
 
 ###### Other
 - map out, turning 'Artist Theme - Tayo' into ACQ projects page
+
+
+### Gitignore/gitpages
+when i untracked the site folder
+https://gist.github.com/tobbbe/5e81077ab00e0b5bbad6
