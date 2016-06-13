@@ -1,0 +1,113 @@
+// Lato
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+$sfp-font-family: 'lato', helvetica-neue, sans-serif;
+
+// COLORS
+$blue1: #5dbce6; // light blue
+$blue2: #347291; // dark blue
+
+%levitate {
+	@include transform( translatey(9%) );
+	&:hover { @include transform( translatey(0%) ); }
+}
+
+// The wrapper bg
+.sfp-wrapper {
+	// stretch the wrapper on small screens
+	@include position(absolute, 0 0 -25% 0);
+	
+	// this is all for the slide movement
+	z-index: 9999;
+	@include transform( translatex(100%) );
+	@include transition(all .5s ease-out);
+	&.slide { @include transform( translatex(0%) ); }
+	
+	// switch back to screen size at 480
+	@include bp(baby) { @include position(absolute, 0); }
+	
+	// debug
+	background-color: pink;
+	// background-color: white;
+
+	// mutltiple backgrounds stuff
+	&:after, &:before {
+		content: "";
+	  @include position(absolute, 0);	  	
+	  z-index: -1;	  
+	}	
+	
+	// the gradient
+	&:after {
+		@include background-image( linear-gradient(0deg, rgba(93, 188, 230, 0.4) 0%, rgba(52, 114, 145, 0.9) 100%) );
+	}
+
+	// the mountains
+	&:before {
+		background-image: url("/assets/img/sfp-bg.jpeg") ;
+  	background-position: center bottom;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+  	// fix for iOS scrolling issue
+  	@include bp(papa) { background-attachment: fixed; }
+	}
+}
+
+// TYPOGRAPHY
+.sfp-wrapper {
+	font-family: $sfp-font-family;
+	font-weight: 400;
+	line-height: 2;
+	text-align: center;
+
+	a {
+		@include transition(all .25s ease-in-out);
+		text-decoration: none;
+		color: $blue2;
+		// display: block;
+		&:hover { color: white; }
+		
+		// hero & video play only
+		&.big-link {
+			font-weight: 300;
+			font-size: 3.5em;
+			@extend %levitate;
+		}
+
+	}
+
+	p {
+		max-width: 34em;
+		margin-left: auto;
+		margin-right: auto;
+		color: $blue2;
+		padding-right: 1em;
+		padding-left: 1em;		
+		
+		// FAQ section
+		a {
+			color: $blue1;
+			&:hover { color: $blue2; }
+		}
+	}
+
+	h1 {
+	  margin: 1.5em auto 1em;
+	  // this is for the disclaimer
+	  max-width: 33em;
+	  font-size: 1em;
+		font-weight: 700;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  color: $blue1;
+	  padding-right: 0 1em;
+	}
+
+	h2 {
+		font-weight: 300;
+		font-size: 3em;
+		letter-spacing: 0;
+		color: white;
+		margin-bottom: 0;
+	}
+	
+}

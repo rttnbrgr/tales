@@ -14,20 +14,14 @@
 @import "0-hyde/syntax";
 @import "0-hyde/hyde";
 
-
-/*
- *
- * Tools
- *
- */
-
 // Bourbon
 @import "1-tools/bourbon/bourbon";
-
-
-
 
 svg.avatar {
 	@include size(auto);
 	max-height: 11em;
+}
+
+iframe {
+	max-width: 100%;
 }

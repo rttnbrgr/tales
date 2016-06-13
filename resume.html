@@ -9,15 +9,15 @@ title: Resume
 <div class="size-testr"></div>	
 <!-- inject stuff in here -->
 <div class="content__wrapper">
-	{% include svg/avi.html %}
+	<a href='{{site.baseurl}}'>{% include svg/avi.html %}</a>
 	{% include job/resume/intro.html %}
 	
 	<!-- <div class="skill__tag-header"> -->
 		<h2 class="relative">Skills
 			<div class="tags">
-				<span class="skill-tag skill__tag">Dev</span>
-				<span class="skill-tag skill__tag">Design</span>
-				<span class="skill-tag skill__tag">!tech</span>
+			{% for tag in site.data.resume.skill-tags %}
+				<span class="skill-tag skill__tag js-skill-{{tag}}">{{tag}}</span> 
+			{% endfor %}
 			</div>
 		</h2>
 	<!-- </div> -->
@@ -25,12 +25,13 @@ title: Resume
 	<div class="skill__container">
 		
 		{% for skill in site.data.resume.skills %}
-		<div class="skill">
+		<div class="skill js-skill-{{skill.tag}}">
 			<span class="skill__title skill--text">{{skill.title}}</span>
-			<span class="skill__bar" data-skill="{{skill.level}}"></span>			
+			<span class="skill__bar skill__level--{{skill.hack}}"  data-skill="{{skill.level}}"></span>			
 			<span class="skill__details skill--text">{{skill.details}}</span>
-		</div>	
+		</div>
 		{% endfor %}
+		<a href="#" class="btn__new js-showSkills">Show More Skills</a>
 
 	</div>
 
@@ -42,6 +43,11 @@ title: Resume
 	</ul>
 
 	<h2>FAQ</h2>
+	{% for q in site.data.resume.faq %}
+		<strong>{{q.question}}</strong>
+		<p>{{q.answer}}</p>
+	{% endfor %}
+
 </div>
 
 
@@ -49,11 +55,7 @@ title: Resume
 <script>
 	$('.skill').click( function(e) {
 		var skillDetail = $(this).children('.skill__details');
-		skillDetail.toggleClass('show');		
-	});
-
-	$('.skill__tag').click(function(e) {
-		$(this).toggleClass('active');
+		skillDetail.toggleClass('show');
 	});
 </script>
 </body>

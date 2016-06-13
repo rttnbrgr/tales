@@ -54,7 +54,8 @@ $grey-med: #747474;
 	h1 {
 		color: $grey-med;
 		margin-bottom: 0;
-		font-size: 1.25em;
+		font-size: 1.85em;
+		line-height: 1;
 		text-align: left;
 	}
 
@@ -76,9 +77,14 @@ $grey-med: #747474;
 
 	@include bp(mama) {
 		margin-left: 6rem;
+		margin: 2em auto;
 		p { font-size: 1em; }
 	}
 
+}
+
+a.btn__new {
+	display: none;
 }
 
 // .skill__tag-header {
@@ -88,6 +94,7 @@ $grey-med: #747474;
 	// h2 { position: relative;}
 
 	.tags {
+		display: none;
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -106,6 +113,15 @@ $grey-med: #747474;
 
 // }
 
+
+@for $i from 1 through 20 {
+	.skill__level--#{$i}::before {
+		background-color: pink;
+		width: calc( #{$i} * 5% );
+	}
+}
+
+
 .skill__container {
 	// DEBUG
 	// background-color: $box8;
@@ -113,6 +129,9 @@ $grey-med: #747474;
 
 	.skill {
 		margin: 1rem 0;
+		&:gt(4) {
+			color: blue;
+		}
 	}
 
 
@@ -122,12 +141,23 @@ $grey-med: #747474;
 		display: block;
 		margin: 0 0 .5rem 0;
 		
-		&:before {
+		&::before {
 			content: "";
 			background-color: $grey-med;
-			@include size(80% 100%);
+			@include size(0 100%);
 			display: block;
+			// content: attr(data-skill);
+			// width: attr(data-skill);
 		}
+		
+		// hacky width for 5% increments
+		@for $i from 1 through 20 {
+			&.skill__level--#{$i}::before {
+				width: calc( #{$i} * 5% );
+			}
+		}
+
+
 	}
 	
 	.skill--text {
@@ -164,7 +194,7 @@ $grey-med: #747474;
   	}
 	}
 
-	@include bp(mama) {
+	@include bp(baby) {
 		
 		
 		@include outer-container();

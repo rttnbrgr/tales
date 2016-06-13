@@ -38,3 +38,8 @@
 ## _notes.md
 [a link][http://stackoverflow.com/questions/34449222/why-isnt-gitignore-ignoring-sass-cache]
 
+16-06-12
+useful links today
+https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/
+http://stackoverflow.com/questions/3508605/how-can-i-transition-height-0-to-height-auto-using-css
+http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit

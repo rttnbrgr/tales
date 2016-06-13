@@ -1,65 +1,87 @@
 skill-tags: 
+- 'all'
 - 'dev'
 - 'design'
-- '!tech'
+- 'non'
 
 skills:
 - {
   title: Adobe Afficionado,
   level: 50,
-  details: 'Photoshop, Illustrator, Indesign'
+  hack: 18, # out of 20
+  details: 'Photoshop, Illustrator, Indesign',
+  tag: design
 }
 - {
   title: Stylesheet Ninja,
-  level: 50,
-  details: 'CSS3, Bootstrap/Foundation, SCSS'
+  level: 100,
+  hack: 17,
+  details: 'CSS3, Bootstrap/Foundation, SCSS',
+  tag: dev
 }
 - {
   title: Javascript Junior ,
-  level: 50,
-  details: 'Vanilla JS, ES2015, jQuery, React'
+  level: 20,
+  hack: 13,
+  details: 'Vanilla JS, ES2015, jQuery, React',
+  tag: dev
 }
 - {
   title: Front End Fanatic,
   level: 50,
-  details: 'Sublime, Gulp, Node, Terminal'
+  hack: 14,
+  details: 'Sublime, Gulp, Node, Terminal',
+  tag: dev
 }
 - {
   title: UI/UX/Prototype,
   level: 50,
-  details: 'Sketch, Marvel, InVision'
+  hack: 15,
+  details: 'Sketch, Marvel, InVision',
+  tag: design
 }
 - {
   title: Visual Communicator,
   level: 50,
-  details: 'Pen & Pencil Sketch, Cartoon'
+  hack: 16,
+  details: 'Pen & Pencil Sketch, Cartoon',
+  tag: design
 }
 - {
   title: CMS,
   level: 50,
-  details: 'Wordpress, Perch, Drupal'
+  hack: 13,
+  details: 'Wordpress, Perch, Drupal',
+  tag: dev
 }
 - {
   title: Sense of Humor,
   level: 50,
-  details: 'Are you still reading, How thorough'
+  hack: 17,
+  details: 'Are you still reading, How thorough',
+  tag: non
 }
 - {
   title: Communication,
   level: 50,
-  details: 'Slack, Trello, Concise, Direct'
+  hack: 15,
+  details: 'Slack, Trello, Concise, Direct',
+  tag: non
 }
 - {
   title: Teamwork,
   level: 50,
-  details: 'Find solutions, not faults'
+  hack: 19,
+  details: 'Find solutions, not faults',
+  tag: non
 }
 - {
   title: Hip-Hop,
   level: 50,
-  details: 'Extensive Knowledge and Opinions'
+  hack: 18,
+  details: 'Extensive Knowledge and Opinions',
+  tag: non
 }
-
 
 clients: 
 - Nike
@@ -76,3 +98,16 @@ clients:
 - Several Satisfied Friends
 - Midly Amused Neighbors
 - Industry “insiders”
+
+faq:
+- { question: 'Do you really have a man bun?', 
+    answer: 'I do, I know it makes me a bad person.' }
+- { question: 'What are your three biggest flaws?', 
+    answer: 'Care too much. Love too hard. And Caffeine.' }
+- { question: 'Are you a good fit for us?', 
+    answer: 'Probably. Do you make cool stuff and need a passionate addition? We should probably talk. Here’s my number and a link to my work' }
+
+
+
+
+

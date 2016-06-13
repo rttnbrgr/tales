@@ -1,0 +1,50 @@
+//////////////////////////////////////////
+// Lighting Bolt Logo
+
+
+$logo-color:          white;
+$logo-size:           10em;
+$logo-vert:           10%;
+$logo-hor:            45%;
+$border-transparent:  solid transparent;
+$border-ht-ration:    5.5;
+$border-wd-ration:    2.3;
+
+.logo {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: transparent;
+  
+  @include size($logo-size);
+  border: ($logo-size/25) solid $logo-color;
+  @include transition(all .25s ease-in-out);
+    
+  &:hover, &:focus, &:active { 
+  	@include transform(rotate(45deg)); 
+    background-color: $blue2;    
+  }  
+    
+  &:after, &:before {
+    content: "";
+    position: absolute;   
+    @include transform( skew(-5deg, -10deg) );
+  }
+
+  &:before {
+    right:          $logo-hor;
+    top:            $logo-vert;
+    border:         0em $border-transparent;    
+    border-right:   $logo-size/$border-ht-ration solid $logo-color;
+    border-top:     $logo-size/$border-wd-ration $border-transparent;
+  }
+
+  &:after {
+    left:           45%;
+    bottom:         10%;    
+    border: 				0em $border-transparent;	
+    border-left: 		$logo-size/$border-ht-ration solid $logo-color;
+    border-bottom: 	$logo-size/$border-wd-ration $border-transparent;
+  }
+}
