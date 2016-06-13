@@ -16,7 +16,8 @@ skills:
   title: Stylesheet Ninja,
   level: 100,
   hack: 17,
-  details: 'CSS3, Bootstrap/Foundation, SCSS',
+  # details: 'CSS3, Bootstrap/Foundation, SCSS',
+  details: 'CSS3, Bootstrap, SCSS, Bourbon',
   tag: dev
 }
 - {
@@ -30,7 +31,7 @@ skills:
   title: Front End Fanatic,
   level: 50,
   hack: 14,
-  details: 'Sublime, Gulp, Node, Terminal',
+  details: 'Sublime, Gulp, Jade, Node, Terminal',
   tag: dev
 }
 - {
@@ -51,7 +52,7 @@ skills:
   title: CMS,
   level: 50,
   hack: 13,
-  details: 'Wordpress, Perch, Drupal',
+  details: 'Wordpress, Perch, Drupal, Squarespace',
   tag: dev
 }
 - {
@@ -105,7 +106,7 @@ faq:
 - { question: 'What are your three biggest flaws?', 
     answer: 'Care too much. Love too hard. And Caffeine.' }
 - { question: 'Are you a good fit for us?', 
-    answer: 'Probably. Do you make cool stuff and need a passionate addition? We should probably talk. Here’s my number and a link to my work' }
+    answer: 'Probably. Do you make cool stuff and need a passionate addition? We should probably talk. Below is my contact info and a link to my work.' }
 
 
 

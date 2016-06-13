@@ -6,7 +6,7 @@ title: Resume
 {% include head.html %}
 
 <body>
-<div class="size-testr"></div>	
+<div class="size-testr debug"></div>	
 <!-- inject stuff in here -->
 <div class="content__wrapper">
 	<a href='{{site.baseurl}}'>{% include svg/avi.html %}</a>
@@ -47,6 +47,12 @@ title: Resume
 		<strong>{{q.question}}</strong>
 		<p>{{q.answer}}</p>
 	{% endfor %}
+
+	{% for l in site.data.settings.channels %}
+	<a href="{{l.link}}">{{l.label}}</a>
+	{% endfor %}
+
+
 
 </div>
 

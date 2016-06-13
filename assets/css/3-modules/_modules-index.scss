@@ -23,13 +23,8 @@ This should get moved to a seperate page
 // SFP
 @import "sfp-index";
 
-
 // Coming Soon
 @import 'coming-soon';
-
-
-
-
 
 // SKILLS
 
@@ -50,6 +45,7 @@ $grey-med: #747474;
 	font-family: "letter-gothic-std",sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	letter-spacing: -1px;
 	
 	h1 {
 		color: $grey-med;
