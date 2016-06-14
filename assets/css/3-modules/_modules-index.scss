@@ -66,9 +66,15 @@ $grey-med: #747474;
 	p {
 		font-size: .875em;
 	}
+	
+	a.avi__wrapper {
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+	}
 
 	svg.avi {
-		@include size(2em auto);
+		@include size(3.5em 6.72em);
 	}
 
 	@include bp(mama) {
@@ -128,9 +134,12 @@ a.btn__new {
 		&:gt(4) {
 			color: blue;
 		}
+
+
 	}
 
-
+	
+	// Bar
 	.skill__bar {
 		@include size(100% 4px);
 		background-color: $grey-light;
@@ -152,8 +161,6 @@ a.btn__new {
 				width: calc( #{$i} * 5% );
 			}
 		}
-
-
 	}
 	
 	.skill--text {
@@ -185,7 +192,11 @@ a.btn__new {
   		max-height: none;
   	}
 
-  	&.show {
+  	.parent & {
+  		color: blue;
+  	}
+
+  	&.showw {
   		max-height: 3rem;
   	}
 	}
@@ -206,6 +217,15 @@ a.btn__new {
 		// 	white-space: initial;
 		// 	color: blue;
 		// }
+	}	
+}
+
+// mobile show/hide
+.skill.active {
+	
+	.skill__details {
+		max-height: 3rem;
+		@include transition(all 0.4s ease);	
 	}
 }
 
@@ -226,3 +246,6 @@ a.btn__new {
 	}
 }
 
+p.faq {
+	margin-top: 0;
+}

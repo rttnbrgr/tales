@@ -9,7 +9,7 @@ title: Resume
 <div class="size-testr debug"></div>	
 <!-- inject stuff in here -->
 <div class="content__wrapper">
-	<a href='{{site.baseurl}}'>{% include svg/avi.html %}</a>
+	<a href='{{site.baseurl}}' class="avi__wrapper">{% include svg/avi.html %}</a>
 	{% include job/resume/intro.html %}
 	
 	<!-- <div class="skill__tag-header"> -->
@@ -45,7 +45,7 @@ title: Resume
 	<h2>FAQ</h2>
 	{% for q in site.data.resume.faq %}
 		<strong>{{q.question}}</strong>
-		<p>{{q.answer}}</p>
+		<p class="faq">{{q.answer}}</p>
 	{% endfor %}
 
 	{% for l in site.data.settings.channels %}
@@ -60,8 +60,12 @@ title: Resume
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
 	$('.skill').click( function(e) {
-		var skillDetail = $(this).children('.skill__details');
-		skillDetail.toggleClass('show');
+		// remove current active class
+		$('.skill').removeClass('active');		
+		// activate new skill
+		// var skillDetail = $(this).children('.skill__details');
+		// skillDetail.toggleClass('show');
+		$(this).addClass('active');
 	});
 </script>
 </body>
