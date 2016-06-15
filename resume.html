@@ -67,6 +67,19 @@ title: Resume
 		// skillDetail.toggleClass('show');
 		$(this).addClass('active');
 	});
+
+	var skillsCollection = document.getElementsByClassName('skill');
+	var skills = [].slice.call(skillsCollection);
+	
+	console.log(skills);
+	var test = skills.filter(function(skill) {
+		return skill
+	});
+	console.log(test);
+
+	// var array = ['ross', 'wale', 'omarion', 'gunplay', 'meek', 'stalley'];
+
+	
 </script>
 {% include ga.html %}
 </body>
