@@ -18,7 +18,9 @@ In May, I spent a few hours I probably should have spent working on updating my 
 
 #### ACQ Toons Updates
 ![Image Text](/assets/img/blog/16-05-00_Blog-Toons.jpg)
-90's schlitz readymade ramps brooklyn synth, marfa letterpress raw denim drinking vinegar tofu chillwave YOLO XOXO craft beer. Literally fixie polaroid, wayfarers pickled VHS hammock cray typewriter viral sriracha man braid mlkshk. Viral hashtag gastropub pabst. Austin fixie mixtape plaid. Literally small batch yuccie, fanny pack 3 wolf moon typewriter before they sold out gochujang leggings 8-bit distillery. Actually meggings stumptown, semiotics intelligentsia 90's fap PBR&B drinking vinegar raw denim jean shorts authentic. Selfies hoodie everyday carry, brunch cornhole cred wolf.
+In the process of updating my portfolio, I revisited some cartoon illustrations I had previously started for my friends at the Acquired Taste Club. Really enjoyed working on these and hopefully they find a purpose beyond twitter avatars. You can see more of them [here][toons-link].
+
+[toons-link]: http://rottenburger.com/acq-toons/
 
 ## Duotone
 

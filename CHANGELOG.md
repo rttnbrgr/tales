@@ -1,3 +1,13 @@
+*more todo*
+The page build completed successfully, but returned the following warning:
+
+You are currently using the 'redcarpet' Markdown engine, which is no longer supported by GitHub Pages and may cease working at any time. To ensure your site continues to build, remove the 'markdown' setting in your site's '_config.yml' file and confirm your site renders as expected
+//////////////////////////////////////////////////
+pygments' highlighter, which is currently unsupported on GitHub Pages. Your site will use 'rouge' for highlighting instead
+
+- Remove redcarpet markdown
+- swap pygments for rouge
+
 ## Todo
 - Edit about.md
 - Cleanup dope post
