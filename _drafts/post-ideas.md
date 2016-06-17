@@ -65,3 +65,9 @@ https://gist.github.com/tobbbe/5e81077ab00e0b5bbad6
 
 ### Tasteclub Labs - Cinema idea
 http://www.failsworth1903.com/
+
+### Autopsy
+[DemCon](https://demconvention.com/)  Break this apart
+
+### next dope
+http://blog.froont.com/9-basic-principles-of-responsive-web-design/
