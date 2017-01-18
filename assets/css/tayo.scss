@@ -15,6 +15,16 @@
 * 	 	 
 */
 
+$color1: #1abc9c;
+$color2: #3498db;
+$color3: #9b59b6;
+$color4: #34495e;
+$color5: #f1c40f;
+$color6: #e67e22;
+$color7: #e74c3c;
+$color8: #bdc3c7;
+$color9: #2ecc71;
+
 // Tools
 @import "1-tools/tools-index";
 // Base
@@ -28,3 +38,13 @@
 .debug {
 	display: none!important;
 }
+
+
+h1 { color: $color1; }
+h1 { color: red; }
+h2 { color: $color2; }
+h3 { color: $color3; }
+h4 { color: $color4; }
+h5 { color: $color5; }
+h6 { color: $color6; }
+
