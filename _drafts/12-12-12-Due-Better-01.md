@@ -4,7 +4,7 @@ title: Due Better
 subtitel: Number 01 - Wes Bos
 ---
 
-![Wes Bos](/assets/img/blog/16-05-00_Blog-DB.jpg)
+![Wes Bos](/assets/img/blog/2016/16-05-00_Blog-DB.jpg)
 
 [Wes Bos][wb] Mustache readymade green juice mixtape cronut normcore, gochujang iPhone pinterest affogato chia locavore. Craft beer sustainable ramps, ethical affogato literally horeditch fingerstache normcore food truck tacos seitan. Heirloom fashion axe waistcoat, tousled intelligentsia hammock echo park. Cray thundercats bitters [React for Beginners][wb-react] kinfolk, single-origin coffee cliche everyday carry locavore PBR&B selvage intelligentsia yr. Direct trade fixie health goth pabst, venmo roof party lo-fi. Schlitz fashion axe hoodie swag organic lumbersexual. 
 
