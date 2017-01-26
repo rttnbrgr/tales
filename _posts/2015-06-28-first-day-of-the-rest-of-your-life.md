@@ -1,6 +1,7 @@
 ---
 layout: hyde-post
 title: First Day Of The Rest Of Your Life
+permalink: /post/000
 ---
 
 I started this post on the day it's listed. But never finished it. It was left with only a title and some filler text. I decided to leave it as the unofficial first post of the blog. 

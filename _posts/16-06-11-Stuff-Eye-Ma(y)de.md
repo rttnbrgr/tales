@@ -1,6 +1,7 @@
 ---
 layout: hyde-post
 title: Stuff Eye Ma(y)de
+permalink: /post/001
 ---
 
 ![Post Image][1]

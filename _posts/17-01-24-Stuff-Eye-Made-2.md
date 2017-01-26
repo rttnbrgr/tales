@@ -1,6 +1,7 @@
 ---
 layout: hyde-post
 title: Stuff Eye Made 2
+permalink: /post/002
 ---
 ![Stuff ∆ Made][Header]
 Did you know I used to be a designer? Well, I still identify as a designer, but I don't do much designing. Cue Hank Moody explaining that you're a writer if you write.
@@ -40,7 +41,7 @@ And that concludes part two of *Stuff Eye Made*. Hope you enjoyed yourself, and 
 
 PS - I couldn't find Hank Moody on writing, so here's him writing a sad letter/not suicide note to Becca. [Enjoy][moody]
 
-[Header]:  http://placehold.it/700x150/202020/ffffff/&text=Stuff+Eye+Mayde
+[Header]:  {{ site.baseurl }}assets/img/blog/2017/17-01-00_Blog-StuffEyeMade.jpg
 [Photo 0]: {{ site.baseurl }}assets/img/blog/2017/17-01-00_Blog-Dope.jpg
 [Photo 1]: {{ site.baseurl }}assets/img/blog/2017/17-01-00_Blog-Grad-1.jpg
 [Photo 2]: {{ site.baseurl }}assets/img/blog/2017/17-01-00_Blog-Grad-2.jpg
