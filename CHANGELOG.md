@@ -53,3 +53,5 @@ useful links today
 https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/
 http://stackoverflow.com/questions/3508605/how-can-i-transition-height-0-to-height-auto-using-css
 http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit
+
+[jekyll links](http://stackoverflow.com/questions/27386169/change-site-url-to-localhost-during-jekyll-local-development#27400343)
